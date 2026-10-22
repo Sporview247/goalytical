@@ -1785,7 +1785,12 @@
        "hg": 1,
        "ag": 0
       }
-     ]
+     ],
+     "games": [
+      45,
+      113
+     ],
+     "limited": []
     },
     {
      "id": "aston-villa-vs-man-city-20261024",
@@ -1905,7 +1910,12 @@
        "hg": 4,
        "ag": 1
       }
-     ]
+     ],
+     "games": [
+      113,
+      113
+     ],
+     "limited": []
     },
     {
      "id": "arsenal-vs-everton-20261024",
@@ -2025,7 +2035,12 @@
        "hg": 2,
        "ag": 1
       }
-     ]
+     ],
+     "games": [
+      113,
+      113
+     ],
+     "limited": []
     },
     {
      "id": "coventry-vs-fulham-20261024",
@@ -2109,7 +2124,14 @@
       ]
      ],
      "new": [],
-     "h2h": []
+     "h2h": [],
+     "games": [
+      7,
+      113
+     ],
+     "limited": [
+      "Coventry"
+     ]
     },
     {
      "id": "chelsea-vs-tottenham-20261024",
@@ -2229,7 +2251,12 @@
        "hg": 2,
        "ag": 0
       }
-     ]
+     ],
+     "games": [
+      113,
+      113
+     ],
+     "limited": []
     },
     {
      "id": "liverpool-vs-brighton-20261025",
@@ -2349,7 +2376,12 @@
        "hg": 2,
        "ag": 1
       }
-     ]
+     ],
+     "games": [
+      113,
+      113
+     ],
+     "limited": []
     },
     {
      "id": "crystal-palace-vs-newcastle-20261025",
@@ -2469,7 +2501,12 @@
        "hg": 2,
        "ag": 0
       }
-     ]
+     ],
+     "games": [
+      113,
+      113
+     ],
+     "limited": []
     },
     {
      "id": "man-united-vs-bournemouth-20261025",
@@ -2589,7 +2626,12 @@
        "hg": 2,
        "ag": 2
       }
-     ]
+     ],
+     "games": [
+      113,
+      113
+     ],
+     "limited": []
     },
     {
      "id": "hull-vs-brentford-20261025",
@@ -2673,7 +2715,14 @@
       ]
      ],
      "new": [],
-     "h2h": []
+     "h2h": [],
+     "games": [
+      7,
+      113
+     ],
+     "limited": [
+      "Hull"
+     ]
     },
     {
      "id": "sunderland-vs-leeds-20261025",
@@ -2772,7 +2821,12 @@
        "hg": 1,
        "ag": 1
       }
-     ]
+     ],
+     "games": [
+      45,
+      45
+     ],
+     "limited": []
     },
     {
      "id": "chelsea-vs-man-united-20261031",
@@ -2892,7 +2946,12 @@
        "hg": 4,
        "ag": 3
       }
-     ]
+     ],
+     "games": [
+      113,
+      113
+     ],
+     "limited": []
     },
     {
      "id": "man-city-vs-brighton-20261031",
@@ -3012,7 +3071,12 @@
        "hg": 0,
        "ag": 4
       }
-     ]
+     ],
+     "games": [
+      113,
+      113
+     ],
+     "limited": []
     },
     {
      "id": "bournemouth-vs-leeds-20261031",
@@ -3111,7 +3175,12 @@
        "hg": 2,
        "ag": 2
       }
-     ]
+     ],
+     "games": [
+      113,
+      45
+     ],
+     "limited": []
     },
     {
      "id": "coventry-vs-sunderland-20261031",
@@ -3195,7 +3264,14 @@
       ]
      ],
      "new": [],
-     "h2h": []
+     "h2h": [],
+     "games": [
+      7,
+      45
+     ],
+     "limited": [
+      "Coventry"
+     ]
     },
     {
      "id": "hull-vs-ipswich-20261031",
@@ -3279,7 +3355,14 @@
       ]
      ],
      "new": [],
-     "h2h": []
+     "h2h": [],
+     "games": [
+      7,
+      45
+     ],
+     "limited": [
+      "Hull"
+     ]
     },
     {
      "id": "brentford-vs-nott-m-forest-20261031",
@@ -3399,7 +3482,12 @@
        "hg": 3,
        "ag": 2
       }
-     ]
+     ],
+     "games": [
+      113,
+      113
+     ],
+     "limited": []
     },
     {
      "id": "tottenham-vs-crystal-palace-20261031",
@@ -3519,7 +3607,12 @@
        "hg": 3,
        "ag": 1
       }
-     ]
+     ],
+     "games": [
+      113,
+      113
+     ],
+     "limited": []
     },
     {
      "id": "aston-villa-vs-fulham-20261031",
@@ -3639,7 +3732,12 @@
        "hg": 1,
        "ag": 2
       }
-     ]
+     ],
+     "games": [
+      113,
+      113
+     ],
+     "limited": []
     },
     {
      "id": "liverpool-vs-arsenal-20261101",
@@ -3759,7 +3857,12 @@
        "hg": 3,
        "ag": 1
       }
-     ]
+     ],
+     "games": [
+      113,
+      113
+     ],
+     "limited": []
     },
     {
      "id": "newcastle-vs-everton-20261102",
@@ -3879,7 +3982,12 @@
        "hg": 1,
        "ag": 1
       }
-     ]
+     ],
+     "games": [
+      113,
+      113
+     ],
+     "limited": []
     },
     {
      "id": "everton-vs-coventry-20261106",
@@ -3963,7 +4071,14 @@
       ]
      ],
      "new": [],
-     "h2h": []
+     "h2h": [],
+     "games": [
+      113,
+      7
+     ],
+     "limited": [
+      "Coventry"
+     ]
     },
     {
      "id": "leeds-vs-tottenham-20261107",
@@ -4062,7 +4177,12 @@
        "hg": 1,
        "ag": 2
       }
-     ]
+     ],
+     "games": [
+      45,
+      113
+     ],
+     "limited": []
     },
     {
      "id": "arsenal-vs-hull-20261107",
@@ -4146,7 +4266,14 @@
       ]
      ],
      "new": [],
-     "h2h": []
+     "h2h": [],
+     "games": [
+      113,
+      7
+     ],
+     "limited": [
+      "Hull"
+     ]
     },
     {
      "id": "fulham-vs-newcastle-20261107",
@@ -4266,7 +4393,12 @@
        "hg": 0,
        "ag": 1
       }
-     ]
+     ],
+     "games": [
+      113,
+      113
+     ],
+     "limited": []
     },
     {
      "id": "nott-m-forest-vs-man-city-20261107",
@@ -4386,7 +4518,12 @@
        "hg": 0,
        "ag": 2
       }
-     ]
+     ],
+     "games": [
+      113,
+      113
+     ],
+     "limited": []
     },
     {
      "id": "crystal-palace-vs-liverpool-20261108",
@@ -4506,7 +4643,12 @@
        "hg": 0,
        "ag": 1
       }
-     ]
+     ],
+     "games": [
+      113,
+      113
+     ],
+     "limited": []
     },
     {
      "id": "sunderland-vs-chelsea-20261108",
@@ -4605,7 +4747,12 @@
        "hg": 1,
        "ag": 2
       }
-     ]
+     ],
+     "games": [
+      45,
+      113
+     ],
+     "limited": []
     },
     {
      "id": "ipswich-vs-bournemouth-20261108",
@@ -4704,7 +4851,12 @@
        "hg": 1,
        "ag": 2
       }
-     ]
+     ],
+     "games": [
+      45,
+      113
+     ],
+     "limited": []
     },
     {
      "id": "brighton-vs-brentford-20261108",
@@ -4824,7 +4976,12 @@
        "hg": 0,
        "ag": 0
       }
-     ]
+     ],
+     "games": [
+      113,
+      113
+     ],
+     "limited": []
     },
     {
      "id": "man-united-vs-aston-villa-20261108",
@@ -4944,7 +5101,12 @@
        "hg": 1,
        "ag": 2
       }
-     ]
+     ],
+     "games": [
+      113,
+      113
+     ],
+     "limited": []
     }
    ],
    "averages": {
@@ -7060,7 +7222,14 @@
       ]
      ],
      "new": [],
-     "h2h": []
+     "h2h": [],
+     "games": [
+      11,
+      138
+     ],
+     "limited": [
+      "Bolton"
+     ]
     },
     {
      "id": "sheffield-united-vs-derby-20261024",
@@ -7173,7 +7342,12 @@
        "hg": 1,
        "ag": 0
       }
-     ]
+     ],
+     "games": [
+      103,
+      103
+     ],
+     "limited": []
     },
     {
      "id": "charlton-vs-norwich-20261024",
@@ -7272,7 +7446,12 @@
        "hg": 1,
        "ag": 0
       }
-     ]
+     ],
+     "games": [
+      57,
+      138
+     ],
+     "limited": []
     },
     {
      "id": "portsmouth-vs-millwall-20261024",
@@ -7385,7 +7564,12 @@
        "hg": 0,
        "ag": 1
       }
-     ]
+     ],
+     "games": [
+      103,
+      138
+     ],
+     "limited": []
     },
     {
      "id": "cardiff-vs-birmingham-20261024",
@@ -7484,7 +7668,12 @@
        "hg": 0,
        "ag": 1
       }
-     ]
+     ],
+     "games": [
+      92,
+      92
+     ],
+     "limited": []
     },
     {
      "id": "qpr-vs-swansea-20261024",
@@ -7604,7 +7793,12 @@
        "hg": 0,
        "ag": 1
       }
-     ]
+     ],
+     "games": [
+      138,
+      138
+     ],
+     "limited": []
     },
     {
      "id": "stoke-vs-bristol-city-20261024",
@@ -7724,7 +7918,12 @@
        "hg": 4,
        "ag": 0
       }
-     ]
+     ],
+     "games": [
+      138,
+      138
+     ],
+     "limited": []
     },
     {
      "id": "preston-vs-west-brom-20261024",
@@ -7844,7 +8043,12 @@
        "hg": 3,
        "ag": 0
       }
-     ]
+     ],
+     "games": [
+      138,
+      138
+     ],
+     "limited": []
     },
     {
      "id": "lincoln-vs-burnley-20261024",
@@ -7928,7 +8132,14 @@
       ]
      ],
      "new": [],
-     "h2h": []
+     "h2h": [],
+     "games": [
+      11,
+      57
+     ],
+     "limited": [
+      "Lincoln"
+     ]
     },
     {
      "id": "west-ham-vs-southampton-20261024",
@@ -8012,7 +8223,14 @@
       ]
      ],
      "new": [],
-     "h2h": []
+     "h2h": [],
+     "games": [
+      11,
+      92
+     ],
+     "limited": [
+      "West Ham"
+     ]
     },
     {
      "id": "blackburn-vs-wrexham-20261024",
@@ -8111,7 +8329,12 @@
        "hg": 1,
        "ag": 1
       }
-     ]
+     ],
+     "games": [
+      138,
+      57
+     ],
+     "limited": []
     },
     {
      "id": "wolves-vs-watford-20261024",
@@ -8195,7 +8418,14 @@
       ]
      ],
      "new": [],
-     "h2h": []
+     "h2h": [],
+     "games": [
+      11,
+      138
+     ],
+     "limited": [
+      "Wolves"
+     ]
     },
     {
      "id": "sheffield-united-vs-wrexham-20261030",
@@ -8294,7 +8524,12 @@
        "hg": 5,
        "ag": 3
       }
-     ]
+     ],
+     "games": [
+      103,
+      57
+     ],
+     "limited": []
     },
     {
      "id": "stoke-vs-preston-20261031",
@@ -8414,7 +8649,12 @@
        "hg": 1,
        "ag": 2
       }
-     ]
+     ],
+     "games": [
+      138,
+      138
+     ],
+     "limited": []
     },
     {
      "id": "norwich-vs-watford-20261031",
@@ -8534,7 +8774,12 @@
        "hg": 4,
        "ag": 2
       }
-     ]
+     ],
+     "games": [
+      138,
+      138
+     ],
+     "limited": []
     },
     {
      "id": "lincoln-vs-birmingham-20261031",
@@ -8618,7 +8863,14 @@
       ]
      ],
      "new": [],
-     "h2h": []
+     "h2h": [],
+     "games": [
+      11,
+      92
+     ],
+     "limited": [
+      "Lincoln"
+     ]
     },
     {
      "id": "wolves-vs-cardiff-20261031",
@@ -8702,7 +8954,14 @@
       ]
      ],
      "new": [],
-     "h2h": []
+     "h2h": [],
+     "games": [
+      11,
+      92
+     ],
+     "limited": [
+      "Wolves"
+     ]
     },
     {
      "id": "west-ham-vs-west-brom-20261031",
@@ -8786,7 +9045,14 @@
       ]
      ],
      "new": [],
-     "h2h": []
+     "h2h": [],
+     "games": [
+      11,
+      138
+     ],
+     "limited": [
+      "West Ham"
+     ]
     },
     {
      "id": "swansea-vs-blackburn-20261031",
@@ -8906,7 +9172,12 @@
        "hg": 2,
        "ag": 1
       }
-     ]
+     ],
+     "games": [
+      138,
+      138
+     ],
+     "limited": []
     },
     {
      "id": "bolton-vs-bristol-city-20261031",
@@ -8990,7 +9261,14 @@
       ]
      ],
      "new": [],
-     "h2h": []
+     "h2h": [],
+     "games": [
+      11,
+      138
+     ],
+     "limited": [
+      "Bolton"
+     ]
     },
     {
      "id": "middlesbrough-vs-charlton-20261031",
@@ -9089,7 +9367,12 @@
        "hg": 1,
        "ag": 2
       }
-     ]
+     ],
+     "games": [
+      138,
+      57
+     ],
+     "limited": []
     },
     {
      "id": "burnley-vs-portsmouth-20261031",
@@ -9188,7 +9471,12 @@
        "hg": 2,
        "ag": 1
       }
-     ]
+     ],
+     "games": [
+      57,
+      103
+     ],
+     "limited": []
     },
     {
      "id": "millwall-vs-derby-20261031",
@@ -9301,7 +9589,12 @@
        "hg": 1,
        "ag": 1
       }
-     ]
+     ],
+     "games": [
+      138,
+      103
+     ],
+     "limited": []
     },
     {
      "id": "southampton-vs-qpr-20261031",
@@ -9414,7 +9707,12 @@
        "hg": 2,
        "ag": 1
       }
-     ]
+     ],
+     "games": [
+      92,
+      138
+     ],
+     "limited": []
     },
     {
      "id": "qpr-vs-burnley-20261103",
@@ -9513,7 +9811,12 @@
        "hg": 0,
        "ag": 0
       }
-     ]
+     ],
+     "games": [
+      138,
+      57
+     ],
+     "limited": []
     },
     {
      "id": "derby-vs-norwich-20261103",
@@ -9626,7 +9929,12 @@
        "hg": 2,
        "ag": 3
       }
-     ]
+     ],
+     "games": [
+      103,
+      138
+     ],
+     "limited": []
     },
     {
      "id": "blackburn-vs-stoke-20261103",
@@ -9746,7 +10054,12 @@
        "hg": 3,
        "ag": 1
       }
-     ]
+     ],
+     "games": [
+      138,
+      138
+     ],
+     "limited": []
     },
     {
      "id": "watford-vs-lincoln-20261103",
@@ -9830,7 +10143,14 @@
       ]
      ],
      "new": [],
-     "h2h": []
+     "h2h": [],
+     "games": [
+      138,
+      11
+     ],
+     "limited": [
+      "Lincoln"
+     ]
     },
     {
      "id": "charlton-vs-bolton-20261103",
@@ -9914,7 +10234,14 @@
       ]
      ],
      "new": [],
-     "h2h": []
+     "h2h": [],
+     "games": [
+      57,
+      11
+     ],
+     "limited": [
+      "Bolton"
+     ]
     },
     {
      "id": "portsmouth-vs-swansea-20261103",
@@ -10027,7 +10354,12 @@
        "hg": 2,
        "ag": 2
       }
-     ]
+     ],
+     "games": [
+      103,
+      138
+     ],
+     "limited": []
     },
     {
      "id": "preston-vs-sheffield-united-20261103",
@@ -10140,7 +10472,12 @@
        "hg": 0,
        "ag": 2
       }
-     ]
+     ],
+     "games": [
+      138,
+      103
+     ],
+     "limited": []
     },
     {
      "id": "west-brom-vs-southampton-20261103",
@@ -10253,7 +10590,12 @@
        "hg": 2,
        "ag": 1
       }
-     ]
+     ],
+     "games": [
+      138,
+      92
+     ],
+     "limited": []
     },
     {
      "id": "birmingham-vs-millwall-20261103",
@@ -10366,7 +10708,12 @@
        "hg": 1,
        "ag": 1
       }
-     ]
+     ],
+     "games": [
+      92,
+      138
+     ],
+     "limited": []
     },
     {
      "id": "cardiff-vs-west-ham-20261104",
@@ -10450,7 +10797,14 @@
       ]
      ],
      "new": [],
-     "h2h": []
+     "h2h": [],
+     "games": [
+      92,
+      11
+     ],
+     "limited": [
+      "West Ham"
+     ]
     },
     {
      "id": "wrexham-vs-middlesbrough-20261104",
@@ -10549,7 +10903,12 @@
        "hg": 1,
        "ag": 1
       }
-     ]
+     ],
+     "games": [
+      57,
+      138
+     ],
+     "limited": []
     },
     {
      "id": "bristol-city-vs-wolves-20261104",
@@ -10633,7 +10992,14 @@
       ]
      ],
      "new": [],
-     "h2h": []
+     "h2h": [],
+     "games": [
+      138,
+      11
+     ],
+     "limited": [
+      "Wolves"
+     ]
     },
     {
      "id": "derby-vs-bolton-20261106",
@@ -10717,7 +11083,14 @@
       ]
      ],
      "new": [],
-     "h2h": []
+     "h2h": [],
+     "games": [
+      103,
+      11
+     ],
+     "limited": [
+      "Bolton"
+     ]
     },
     {
      "id": "wrexham-vs-wolves-20261107",
@@ -10801,7 +11174,14 @@
       ]
      ],
      "new": [],
-     "h2h": []
+     "h2h": [],
+     "games": [
+      57,
+      11
+     ],
+     "limited": [
+      "Wolves"
+     ]
     },
     {
      "id": "portsmouth-vs-stoke-20261107",
@@ -10914,7 +11294,12 @@
        "hg": 6,
        "ag": 1
       }
-     ]
+     ],
+     "games": [
+      103,
+      138
+     ],
+     "limited": []
     },
     {
      "id": "bristol-city-vs-norwich-20261107",
@@ -11034,7 +11419,12 @@
        "hg": 1,
        "ag": 1
       }
-     ]
+     ],
+     "games": [
+      138,
+      138
+     ],
+     "limited": []
     },
     {
      "id": "qpr-vs-lincoln-20261107",
@@ -11118,7 +11508,14 @@
       ]
      ],
      "new": [],
-     "h2h": []
+     "h2h": [],
+     "games": [
+      138,
+      11
+     ],
+     "limited": [
+      "Lincoln"
+     ]
     },
     {
      "id": "cardiff-vs-burnley-20261107",
@@ -11217,7 +11614,12 @@
        "hg": 5,
        "ag": 0
       }
-     ]
+     ],
+     "games": [
+      92,
+      57
+     ],
+     "limited": []
     },
     {
      "id": "charlton-vs-sheffield-united-20261107",
@@ -11316,7 +11718,12 @@
        "hg": 0,
        "ag": 1
       }
-     ]
+     ],
+     "games": [
+      57,
+      103
+     ],
+     "limited": []
     },
     {
      "id": "watford-vs-middlesbrough-20261107",
@@ -11436,7 +11843,12 @@
        "hg": 3,
        "ag": 1
       }
-     ]
+     ],
+     "games": [
+      138,
+      138
+     ],
+     "limited": []
     },
     {
      "id": "blackburn-vs-west-ham-20261107",
@@ -11520,7 +11932,14 @@
       ]
      ],
      "new": [],
-     "h2h": []
+     "h2h": [],
+     "games": [
+      138,
+      11
+     ],
+     "limited": [
+      "West Ham"
+     ]
     },
     {
      "id": "west-brom-vs-millwall-20261107",
@@ -11640,7 +12059,12 @@
        "hg": 1,
        "ag": 1
       }
-     ]
+     ],
+     "games": [
+      138,
+      138
+     ],
+     "limited": []
     },
     {
      "id": "preston-vs-southampton-20261107",
@@ -11753,7 +12177,12 @@
        "hg": 2,
        "ag": 2
       }
-     ]
+     ],
+     "games": [
+      138,
+      92
+     ],
+     "limited": []
     },
     {
      "id": "birmingham-vs-swansea-20261107",
@@ -11866,7 +12295,12 @@
        "hg": 1,
        "ag": 1
       }
-     ]
+     ],
+     "games": [
+      92,
+      138
+     ],
+     "limited": []
     }
    ],
    "averages": {
@@ -13514,7 +13948,12 @@
        "hg": 4,
        "ag": 0
       }
-     ]
+     ],
+     "games": [
+      101,
+      101
+     ],
+     "limited": []
     },
     {
      "id": "mainz-vs-werder-bremen-20261024",
@@ -13634,7 +14073,12 @@
        "hg": 0,
        "ag": 1
       }
-     ]
+     ],
+     "games": [
+      101,
+      101
+     ],
+     "limited": []
     },
     {
      "id": "fc-koln-vs-schalke-04-20261024",
@@ -13718,7 +14162,14 @@
       ]
      ],
      "new": [],
-     "h2h": []
+     "h2h": [],
+     "games": [
+      67,
+      6
+     ],
+     "limited": [
+      "Schalke 04"
+     ]
     },
     {
      "id": "rb-leipzig-vs-elversberg-20261024",
@@ -13802,7 +14253,14 @@
       ]
      ],
      "new": [],
-     "h2h": []
+     "h2h": [],
+     "games": [
+      101,
+      6
+     ],
+     "limited": [
+      "Elversberg"
+     ]
     },
     {
      "id": "paderborn-vs-hamburg-20261024",
@@ -13886,7 +14344,14 @@
       ]
      ],
      "new": [],
-     "h2h": []
+     "h2h": [],
+     "games": [
+      6,
+      40
+     ],
+     "limited": [
+      "Paderborn"
+     ]
     },
     {
      "id": "augsburg-vs-union-berlin-20261024",
@@ -14006,7 +14471,12 @@
        "hg": 2,
        "ag": 0
       }
-     ]
+     ],
+     "games": [
+      101,
+      101
+     ],
+     "limited": []
     },
     {
      "id": "dortmund-vs-ein-frankfurt-20261024",
@@ -14126,7 +14596,12 @@
        "hg": 3,
        "ag": 1
       }
-     ]
+     ],
+     "games": [
+      101,
+      101
+     ],
+     "limited": []
     },
     {
      "id": "hoffenheim-vs-leverkusen-20261025",
@@ -14246,7 +14721,12 @@
        "hg": 2,
        "ag": 1
       }
-     ]
+     ],
+     "games": [
+      101,
+      101
+     ],
+     "limited": []
     },
     {
      "id": "freiburg-vs-bayern-munich-20261025",
@@ -14366,7 +14846,12 @@
        "hg": 2,
        "ag": 2
       }
-     ]
+     ],
+     "games": [
+      101,
+      101
+     ],
+     "limited": []
     },
     {
      "id": "elversberg-vs-mainz-20261030",
@@ -14450,7 +14935,14 @@
       ]
      ],
      "new": [],
-     "h2h": []
+     "h2h": [],
+     "games": [
+      6,
+      101
+     ],
+     "limited": [
+      "Elversberg"
+     ]
     },
     {
      "id": "m-gladbach-vs-paderborn-20261031",
@@ -14534,7 +15026,14 @@
       ]
      ],
      "new": [],
-     "h2h": []
+     "h2h": [],
+     "games": [
+      101,
+      6
+     ],
+     "limited": [
+      "Paderborn"
+     ]
     },
     {
      "id": "schalke-04-vs-rb-leipzig-20261031",
@@ -14618,7 +15117,14 @@
       ]
      ],
      "new": [],
-     "h2h": []
+     "h2h": [],
+     "games": [
+      6,
+      101
+     ],
+     "limited": [
+      "Schalke 04"
+     ]
     },
     {
      "id": "augsburg-vs-freiburg-20261031",
@@ -14738,7 +15244,12 @@
        "hg": 2,
        "ag": 1
       }
-     ]
+     ],
+     "games": [
+      101,
+      101
+     ],
+     "limited": []
     },
     {
      "id": "werder-bremen-vs-hoffenheim-20261031",
@@ -14858,7 +15369,12 @@
        "hg": 2,
        "ag": 1
       }
-     ]
+     ],
+     "games": [
+      101,
+      101
+     ],
+     "limited": []
     },
     {
      "id": "leverkusen-vs-stuttgart-20261031",
@@ -14978,7 +15494,12 @@
        "hg": 2,
        "ag": 2
       }
-     ]
+     ],
+     "games": [
+      101,
+      101
+     ],
+     "limited": []
     },
     {
      "id": "bayern-munich-vs-dortmund-20261031",
@@ -15098,7 +15619,12 @@
        "hg": 0,
        "ag": 2
       }
-     ]
+     ],
+     "games": [
+      101,
+      101
+     ],
+     "limited": []
     },
     {
      "id": "union-berlin-vs-fc-koln-20261101",
@@ -15211,7 +15737,12 @@
        "hg": 2,
        "ag": 0
       }
-     ]
+     ],
+     "games": [
+      101,
+      67
+     ],
+     "limited": []
     },
     {
      "id": "ein-frankfurt-vs-hamburg-20261101",
@@ -15310,7 +15841,12 @@
        "hg": 1,
        "ag": 1
       }
-     ]
+     ],
+     "games": [
+      101,
+      40
+     ],
+     "limited": []
     },
     {
      "id": "hamburg-vs-m-gladbach-20261106",
@@ -15409,7 +15945,12 @@
        "hg": 0,
        "ag": 0
       }
-     ]
+     ],
+     "games": [
+      40,
+      101
+     ],
+     "limited": []
     },
     {
      "id": "rb-leipzig-vs-augsburg-20261107",
@@ -15529,7 +16070,12 @@
        "hg": 2,
        "ag": 2
       }
-     ]
+     ],
+     "games": [
+      101,
+      101
+     ],
+     "limited": []
     },
     {
      "id": "dortmund-vs-elversberg-20261107",
@@ -15613,7 +16159,14 @@
       ]
      ],
      "new": [],
-     "h2h": []
+     "h2h": [],
+     "games": [
+      101,
+      6
+     ],
+     "limited": [
+      "Elversberg"
+     ]
     },
     {
      "id": "mainz-vs-bayern-munich-20261107",
@@ -15733,7 +16286,12 @@
        "hg": 8,
        "ag": 1
       }
-     ]
+     ],
+     "games": [
+      101,
+      101
+     ],
+     "limited": []
     },
     {
      "id": "paderborn-vs-ein-frankfurt-20261107",
@@ -15817,7 +16375,14 @@
       ]
      ],
      "new": [],
-     "h2h": []
+     "h2h": [],
+     "games": [
+      6,
+      101
+     ],
+     "limited": [
+      "Paderborn"
+     ]
     },
     {
      "id": "stuttgart-vs-werder-bremen-20261107",
@@ -15937,7 +16502,12 @@
        "hg": 2,
        "ag": 1
       }
-     ]
+     ],
+     "games": [
+      101,
+      101
+     ],
+     "limited": []
     },
     {
      "id": "fc-koln-vs-leverkusen-20261108",
@@ -16050,7 +16620,12 @@
        "hg": 3,
        "ag": 0
       }
-     ]
+     ],
+     "games": [
+      67,
+      101
+     ],
+     "limited": []
     },
     {
      "id": "freiburg-vs-union-berlin-20261108",
@@ -16170,7 +16745,12 @@
        "hg": 2,
        "ag": 1
       }
-     ]
+     ],
+     "games": [
+      101,
+      101
+     ],
+     "limited": []
     },
     {
      "id": "hoffenheim-vs-schalke-04-20261108",
@@ -16254,7 +16834,14 @@
       ]
      ],
      "new": [],
-     "h2h": []
+     "h2h": [],
+     "games": [
+      101,
+      6
+     ],
+     "limited": [
+      "Schalke 04"
+     ]
     }
    ],
    "averages": {
@@ -16367,5 +16954,15 @@
    ]
   ]
  },
- "generated_at": "2026-10-22 11:48 UTC"
+ "record": {
+  "all": null,
+  "leagues": {
+   "E0": null,
+   "E1": null,
+   "D1": null
+  },
+  "pending": 105
+ },
+ "played": [],
+ "generated_at": "2026-10-22 12:08 UTC"
 }
