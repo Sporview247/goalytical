@@ -1,8 +1,13 @@
 name: Update data
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "17 */6 * * *"
 permissions:
   contents: write
+concurrency:
+  group: update-data
+  cancel-in-progress: false
 jobs:
   data:
     runs-on: ubuntu-latest
@@ -15,10 +20,11 @@ jobs:
       - run: python scripts/pipeline.py
         env:
           TOKEN: ${{ secrets.FOOTBALL_DATA_TOKEN }}
-      - name: Save data file
+      - name: Save data files
         run: |
           git config user.name "goalytical-bot"
           git config user.email "goalytical-bot@users.noreply.github.com"
-          git add data/site.json
+          git add data
           git diff --cached --quiet || git commit -m "Update data"
+          git pull --rebase
           git push
