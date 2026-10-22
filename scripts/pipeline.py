@@ -212,16 +212,84 @@ def h2h(d, a, b):
     return [{"date": r.Date.strftime("%Y-%m-%d"), "home": r.HomeTeam, "away": r.AwayTeam, "hg": int(r.FTHG), "ag": int(r.FTAG)} for r in m.itertuples()][::-1]
 
 
+LOG_PATH = "data/log.json"
+
+
+def load_json(path, default):
+    try:
+        return json.load(open(path, encoding="utf-8"))
+    except Exception:
+        return default
+
+
+def update_log(log, lg, fixtures, cur, base, now):
+    """Freeze our latest pre-kick-off prediction for each match, then attach results."""
+    for f in fixtures:
+        if pd.Timestamp(f["utc"]) <= now:
+            continue
+        e = log.get(f["id"])
+        if e is None or (e.get("result") is None and e["pct"] != f["pct"]):
+            log[f["id"]] = {"id": f["id"], "lg": lg, "home": f["home"], "away": f["away"], "utc": f["utc"],
+                            "pct": f["pct"], "proj": f["proj"], "base": base,
+                            "logged": now.strftime("%Y-%m-%d %H:%M"), "result": None}
+    for e in log.values():
+        if e["lg"] != lg or e.get("result") is not None:
+            continue
+        ko = pd.Timestamp(e["utc"]).tz_convert(None)
+        m = cur[(cur.HomeTeam == e["home"]) & (cur.AwayTeam == e["away"]) &
+                ((cur.Date - ko.normalize()).abs() <= pd.Timedelta(days=2))]
+        if len(m):
+            r = m.iloc[-1]
+            e["result"] = {"hg": int(r.FTHG), "ag": int(r.FTAG)}
+        elif ko < now.tz_convert(None) - pd.Timedelta(days=30):
+            e["result"] = {"void": True}
+
+
+def record_summary(log):
+    rows = [e for e in log.values() if e.get("result") and "hg" in e["result"]]
+
+    def stats(rs):
+        if not rs:
+            return None
+        br, bb, hit = [], [], 0
+        for e in rs:
+            hg, ag = e["result"]["hg"], e["result"]["ag"]
+            y = 0 if hg > ag else (1 if hg == ag else 2)
+            P, O, b = np.array(e["pct"]) / 100, np.eye(3)[y], np.array(e["base"])
+            br.append(((P - O) ** 2).sum())
+            bb.append(((b - O) ** 2).sum())
+            hit += int(P.argmax() == y)
+        return {"matches": len(rs), "correct": round(100 * hit / len(rs), 1),
+                "brier": round(float(np.mean(br)), 4), "base_brier": round(float(np.mean(bb)), 4)}
+
+    rec = sorted(rows, key=lambda e: e["utc"], reverse=True)
+    played = []
+    for e in rec:
+        hg, ag = e["result"]["hg"], e["result"]["ag"]
+        y = 0 if hg > ag else (1 if hg == ag else 2)
+        played.append({"id": e["id"], "lg": e["lg"], "home": e["home"], "away": e["away"], "utc": e["utc"],
+                       "pct": e["pct"], "proj": e["proj"], "hg": hg, "ag": ag, "called": bool(np.argmax(e["pct"]) == y)})
+    return {"all": stats(rows), "leagues": {k: stats([e for e in rows if e["lg"] == k]) for k in LEAGUES},
+            "pending": sum(1 for e in log.values() if e.get("result") is None)}, played[:60]
+
+
 def main():
     token = os.environ.get("TOKEN", "")
-    today = pd.Timestamp.now(tz="UTC").normalize()
+    now = pd.Timestamp.now(tz="UTC")
+    today = now.normalize()
+    log = load_json(LOG_PATH, {})
+    old_log = json.dumps(log, sort_keys=True)
     out = {"season": "2026/27", "leagues": {}, "backtest": BACKTEST}
     lines = ["# Goalytical data engine\n"]
     for lg, info in LEAGUES.items():
         d = load_results(lg)
         cur = d[d.Season == HISTORY[-1]]
         ref = d.Date.max() + pd.Timedelta(days=1)
-        m = fit(d[d.Date >= ref - pd.Timedelta(days=WINDOW_DAYS)], ref)
+        win = d[d.Date >= ref - pd.Timedelta(days=WINDOW_DAYS)]
+        m = fit(win, ref)
+        games = pd.concat([win.HomeTeam, win.AwayTeam]).value_counts().to_dict()
+        hd, dr = float((win.FTHG > win.FTAG).mean()), float((win.FTHG == win.FTAG).mean())
+        base = [round(hd, 3), round(dr, 3), round(1 - hd - dr, 3)]
         table = build_table(cur)
         known = set(d.HomeTeam) | set(d.AwayTeam)
         r = requests.get(API_URL.format(c=info["api"]), headers={"X-Auth-Token": token},
@@ -242,7 +310,10 @@ def main():
                 "proj": [round(lh, 2), round(la, 2)], "top": [[int(i), int(j), round(float(p) * 100, 1)] for p, i, j in top],
                 "grid": [[round(float(M[i, j]) * 100, 1) for j in range(5)] for i in range(5)],
                 "new": [t for t in (h, a) if t not in m["ix"]], "h2h": h2h(d, h, a),
+                "games": [int(games.get(h, 0)), int(games.get(a, 0))],
+                "limited": [t for t in (h, a) if games.get(t, 0) < 20],
             })
+        update_log(log, lg, fixtures, cur, base, now)
         n = len(cur)
         avg = {"matches": n, "goals_pm": round((cur.FTHG.sum() + cur.FTAG.sum()) / max(n, 1), 2),
                "home_win": round(100 * (cur.FTHG > cur.FTAG).mean()) if n else 0,
@@ -254,10 +325,13 @@ def main():
         lines.append("| # | team | P | GD | Pts | form |\n|---|---|---|---|---|---|")
         for t in table[:5]:
             lines.append(f"| {t['pos']} | {t['team']} | {t['P']} | {t['GD']:+d} | {t['Pts']} | {''.join(t['form'])} |")
-        lines.append("\n| kick-off (UTC) | match | H | D | A | proj goals | top score | new teams | last meetings |\n|---|---|---|---|---|---|---|---|---|")
+        lines.append("\n| kick-off (UTC) | match | H | D | A | proj goals | top score | limited data | last meetings |\n|---|---|---|---|---|---|---|---|---|")
         for f in fixtures[:4]:
-            lines.append(f"| {f['utc']} | {f['home']} v {f['away']} | {f['pct'][0]} | {f['pct'][1]} | {f['pct'][2]} | {f['proj'][0]}-{f['proj'][1]} | {f['top'][0][0]}-{f['top'][0][1]} ({f['top'][0][2]}%) | {', '.join(f['new'])} | {len(f['h2h'])} |")
+            lines.append(f"| {f['utc']} | {f['home']} v {f['away']} | {f['pct'][0]} | {f['pct'][1]} | {f['pct'][2]} | {f['proj'][0]}-{f['proj'][1]} | {f['top'][0][0]}-{f['top'][0][1]} ({f['top'][0][2]}%) | {', '.join(f['limited'])} | {len(f['h2h'])} |")
         lines.append("")
+    record, played = record_summary(log)
+    out["record"], out["played"] = record, played
+    lines.append(f"## Prediction log\n\nEntries: {len(log)}. Scored so far: {record['all']['matches'] if record['all'] else 0}. Waiting for results: {record['pending']}.\n")
     if WARNINGS:
         lines.append("## Warnings\n")
         lines += [f"- {w}" for w in WARNINGS.values()]
@@ -266,6 +340,9 @@ def main():
     if os.environ.get("GITHUB_STEP_SUMMARY"):
         open(os.environ["GITHUB_STEP_SUMMARY"], "a").write(text)
     os.makedirs("data", exist_ok=True)
+    if json.dumps(log, sort_keys=True) != old_log:
+        json.dump(log, open(LOG_PATH, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+        print("data/log.json updated")
     path = "data/site.json"
     old = None
     if os.path.exists(path):
