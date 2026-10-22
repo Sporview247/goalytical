@@ -1,0 +1,20 @@
+name: Test data connection
+on:
+  workflow_dispatch:
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check football-data.org token
+        env:
+          TOKEN: ${{ secrets.FOOTBALL_DATA_TOKEN }}
+        run: |
+          code=$(curl -s -o response.json -w "%{http_code}" -H "X-Auth-Token: $TOKEN" https://api.football-data.org/v4/competitions)
+          echo "HTTP status: $code"
+          python3 -c "import json;d=json.load(open('response.json'));print('Competitions listed:',d.get('count'));[print(c['code'],'-',c['name']) for c in d.get('competitions',[])]"
+      - name: Check football-data.co.uk CSV
+        run: |
+          curl -s -o E0.csv https://www.football-data.co.uk/mmz4281/2627/E0.csv
+          head -c 600 E0.csv
+          echo
+          wc -l E0.csv
