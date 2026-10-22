@@ -52,7 +52,16 @@ def pct3(P):
 def main():
     r = requests.get(FIXTURES_URL, headers={"User-Agent": bt.UA}, timeout=60)
     r.raise_for_status()
-    fx = pd.read_csv(io.StringIO(r.content.decode("latin-1")), on_bad_lines="skip")
+    try:
+        txt = r.content.decode("utf-8-sig")
+    except UnicodeDecodeError:
+        txt = r.content.decode("latin-1").lstrip("\ufeff")
+    fx = pd.read_csv(io.StringIO(txt), on_bad_lines="skip")
+    fx.columns = [str(c).strip().lstrip("\ufeff") for c in fx.columns]
+    if "Div" not in fx.columns:
+        print("Unexpected fixtures file. Columns:", list(fx.columns))
+        print(txt[:300])
+        raise SystemExit(1)
     fx = fx[fx.Div.isin(bt.LEAGUES)].copy()
     lines = ["# Goalytical predictions test\n",
              "Times are UK time as given by the data source. Projected goals come from our model.\n"]
