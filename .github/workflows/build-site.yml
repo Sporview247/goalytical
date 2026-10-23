@@ -1,0 +1,31 @@
+name: Build site
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/render.py"
+      - "static/**"
+      - "analysis/**"
+permissions:
+  contents: write
+concurrency:
+  group: site
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python scripts/render.py
+      - name: Save site
+        run: |
+          git config user.name "goalytical-bot"
+          git config user.email "goalytical-bot@users.noreply.github.com"
+          git add -A public
+          git diff --cached --quiet || git commit -m "Build site"
+          git pull --rebase
+          git push
