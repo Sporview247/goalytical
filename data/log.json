@@ -2529,5 +2529,557 @@
   ],
   "logged": "2026-10-30 01:19",
   "result": null
+ },
+ "man-city-vs-fulham-20261121": {
+  "id": "man-city-vs-fulham-20261121",
+  "lg": "E0",
+  "home": "Man City",
+  "away": "Fulham",
+  "utc": "2026-11-21T12:30:00Z",
+  "pct": [
+   66,
+   20,
+   14
+  ],
+  "proj": [
+   2.12,
+   0.86
+  ],
+  "base": [
+   0.429,
+   0.25,
+   0.321
+  ],
+  "logged": "2026-10-31 01:18",
+  "result": null
+ },
+ "chelsea-vs-leeds-20261121": {
+  "id": "chelsea-vs-leeds-20261121",
+  "lg": "E0",
+  "home": "Chelsea",
+  "away": "Leeds",
+  "utc": "2026-11-21T15:00:00Z",
+  "pct": [
+   47,
+   25,
+   28
+  ],
+  "proj": [
+   1.63,
+   1.21
+  ],
+  "base": [
+   0.429,
+   0.25,
+   0.321
+  ],
+  "logged": "2026-10-31 01:18",
+  "result": null
+ },
+ "aston-villa-vs-sunderland-20261121": {
+  "id": "aston-villa-vs-sunderland-20261121",
+  "lg": "E0",
+  "home": "Aston Villa",
+  "away": "Sunderland",
+  "utc": "2026-11-21T15:00:00Z",
+  "pct": [
+   51,
+   27,
+   22
+  ],
+  "proj": [
+   1.58,
+   0.96
+  ],
+  "base": [
+   0.429,
+   0.25,
+   0.321
+  ],
+  "logged": "2026-10-31 01:18",
+  "result": null
+ },
+ "bournemouth-vs-nott-m-forest-20261121": {
+  "id": "bournemouth-vs-nott-m-forest-20261121",
+  "lg": "E0",
+  "home": "Bournemouth",
+  "away": "Nott'm Forest",
+  "utc": "2026-11-21T15:00:00Z",
+  "pct": [
+   46,
+   27,
+   27
+  ],
+  "proj": [
+   1.55,
+   1.13
+  ],
+  "base": [
+   0.429,
+   0.25,
+   0.321
+  ],
+  "logged": "2026-10-31 01:18",
+  "result": null
+ },
+ "tottenham-vs-ipswich-20261121": {
+  "id": "tottenham-vs-ipswich-20261121",
+  "lg": "E0",
+  "home": "Tottenham",
+  "away": "Ipswich",
+  "utc": "2026-11-21T15:00:00Z",
+  "pct": [
+   56,
+   22,
+   22
+  ],
+  "proj": [
+   2.06,
+   1.22
+  ],
+  "base": [
+   0.429,
+   0.25,
+   0.321
+  ],
+  "logged": "2026-10-31 01:18",
+  "result": null
+ },
+ "coventry-vs-crystal-palace-20261121": {
+  "id": "coventry-vs-crystal-palace-20261121",
+  "lg": "E0",
+  "home": "Coventry",
+  "away": "Crystal Palace",
+  "utc": "2026-11-21T15:00:00Z",
+  "pct": [
+   34,
+   28,
+   38
+  ],
+  "proj": [
+   1.25,
+   1.32
+  ],
+  "base": [
+   0.429,
+   0.25,
+   0.321
+  ],
+  "logged": "2026-10-31 01:18",
+  "result": null
+ },
+ "newcastle-vs-arsenal-20261121": {
+  "id": "newcastle-vs-arsenal-20261121",
+  "lg": "E0",
+  "home": "Newcastle",
+  "away": "Arsenal",
+  "utc": "2026-11-21T17:30:00Z",
+  "pct": [
+   21,
+   25,
+   54
+  ],
+  "proj": [
+   1.01,
+   1.73
+  ],
+  "base": [
+   0.429,
+   0.25,
+   0.321
+  ],
+  "logged": "2026-10-31 01:18",
+  "result": null
+ },
+ "sheffield-united-vs-watford-20261121": {
+  "id": "sheffield-united-vs-watford-20261121",
+  "lg": "E1",
+  "home": "Sheffield United",
+  "away": "Watford",
+  "utc": "2026-11-21T12:30:00Z",
+  "pct": [
+   55,
+   25,
+   20
+  ],
+  "proj": [
+   1.69,
+   0.94
+  ],
+  "base": [
+   0.437,
+   0.263,
+   0.3
+  ],
+  "logged": "2026-10-31 01:18",
+  "result": null
+ },
+ "southampton-vs-derby-20261121": {
+  "id": "southampton-vs-derby-20261121",
+  "lg": "E1",
+  "home": "Southampton",
+  "away": "Derby",
+  "utc": "2026-11-21T12:30:00Z",
+  "pct": [
+   63,
+   21,
+   16
+  ],
+  "proj": [
+   2.08,
+   0.97
+  ],
+  "base": [
+   0.437,
+   0.263,
+   0.3
+  ],
+  "logged": "2026-10-31 01:18",
+  "result": null
+ },
+ "millwall-vs-qpr-20261121": {
+  "id": "millwall-vs-qpr-20261121",
+  "lg": "E1",
+  "home": "Millwall",
+  "away": "QPR",
+  "utc": "2026-11-21T12:30:00Z",
+  "pct": [
+   47,
+   27,
+   26
+  ],
+  "proj": [
+   1.52,
+   1.08
+  ],
+  "base": [
+   0.437,
+   0.263,
+   0.3
+  ],
+  "logged": "2026-10-31 01:18",
+  "result": null
+ },
+ "swansea-vs-west-brom-20261121": {
+  "id": "swansea-vs-west-brom-20261121",
+  "lg": "E1",
+  "home": "Swansea",
+  "away": "West Brom",
+  "utc": "2026-11-21T15:00:00Z",
+  "pct": [
+   40,
+   30,
+   30
+  ],
+  "proj": [
+   1.22,
+   1.0
+  ],
+  "base": [
+   0.437,
+   0.263,
+   0.3
+  ],
+  "logged": "2026-10-31 01:18",
+  "result": null
+ },
+ "middlesbrough-vs-bristol-city-20261121": {
+  "id": "middlesbrough-vs-bristol-city-20261121",
+  "lg": "E1",
+  "home": "Middlesbrough",
+  "away": "Bristol City",
+  "utc": "2026-11-21T15:00:00Z",
+  "pct": [
+   54,
+   25,
+   21
+  ],
+  "proj": [
+   1.74,
+   0.99
+  ],
+  "base": [
+   0.437,
+   0.263,
+   0.3
+  ],
+  "logged": "2026-10-31 01:18",
+  "result": null
+ },
+ "bolton-vs-portsmouth-20261121": {
+  "id": "bolton-vs-portsmouth-20261121",
+  "lg": "E1",
+  "home": "Bolton",
+  "away": "Portsmouth",
+  "utc": "2026-11-21T15:00:00Z",
+  "pct": [
+   41,
+   26,
+   33
+  ],
+  "proj": [
+   1.54,
+   1.34
+  ],
+  "base": [
+   0.437,
+   0.263,
+   0.3
+  ],
+  "logged": "2026-10-31 01:18",
+  "result": null
+ },
+ "stoke-vs-birmingham-20261121": {
+  "id": "stoke-vs-birmingham-20261121",
+  "lg": "E1",
+  "home": "Stoke",
+  "away": "Birmingham",
+  "utc": "2026-11-21T15:00:00Z",
+  "pct": [
+   35,
+   29,
+   36
+  ],
+  "proj": [
+   1.15,
+   1.17
+  ],
+  "base": [
+   0.437,
+   0.263,
+   0.3
+  ],
+  "logged": "2026-10-31 01:18",
+  "result": null
+ },
+ "norwich-vs-cardiff-20261121": {
+  "id": "norwich-vs-cardiff-20261121",
+  "lg": "E1",
+  "home": "Norwich",
+  "away": "Cardiff",
+  "utc": "2026-11-21T15:00:00Z",
+  "pct": [
+   54,
+   23,
+   23
+  ],
+  "proj": [
+   1.93,
+   1.2
+  ],
+  "base": [
+   0.437,
+   0.263,
+   0.3
+  ],
+  "logged": "2026-10-31 01:18",
+  "result": null
+ },
+ "lincoln-vs-wrexham-20261121": {
+  "id": "lincoln-vs-wrexham-20261121",
+  "lg": "E1",
+  "home": "Lincoln",
+  "away": "Wrexham",
+  "utc": "2026-11-21T15:00:00Z",
+  "pct": [
+   36,
+   26,
+   38
+  ],
+  "proj": [
+   1.42,
+   1.47
+  ],
+  "base": [
+   0.437,
+   0.263,
+   0.3
+  ],
+  "logged": "2026-10-31 01:18",
+  "result": null
+ },
+ "west-ham-vs-preston-20261121": {
+  "id": "west-ham-vs-preston-20261121",
+  "lg": "E1",
+  "home": "West Ham",
+  "away": "Preston",
+  "utc": "2026-11-21T15:00:00Z",
+  "pct": [
+   78,
+   13,
+   9
+  ],
+  "proj": [
+   2.96,
+   0.94
+  ],
+  "base": [
+   0.437,
+   0.263,
+   0.3
+  ],
+  "logged": "2026-10-31 01:18",
+  "result": null
+ },
+ "wolves-vs-charlton-20261121": {
+  "id": "wolves-vs-charlton-20261121",
+  "lg": "E1",
+  "home": "Wolves",
+  "away": "Charlton",
+  "utc": "2026-11-21T15:00:00Z",
+  "pct": [
+   58,
+   24,
+   18
+  ],
+  "proj": [
+   1.73,
+   0.85
+  ],
+  "base": [
+   0.437,
+   0.263,
+   0.3
+  ],
+  "logged": "2026-10-31 01:18",
+  "result": null
+ },
+ "leverkusen-vs-paderborn-20261121": {
+  "id": "leverkusen-vs-paderborn-20261121",
+  "lg": "D1",
+  "home": "Leverkusen",
+  "away": "Paderborn",
+  "utc": "2026-11-21T14:30:00Z",
+  "pct": [
+   64,
+   21,
+   15
+  ],
+  "proj": [
+   2.0,
+   0.85
+  ],
+  "base": [
+   0.423,
+   0.256,
+   0.322
+  ],
+  "logged": "2026-10-31 01:18",
+  "result": null
+ },
+ "union-berlin-vs-rb-leipzig-20261121": {
+  "id": "union-berlin-vs-rb-leipzig-20261121",
+  "lg": "D1",
+  "home": "Union Berlin",
+  "away": "RB Leipzig",
+  "utc": "2026-11-21T14:30:00Z",
+  "pct": [
+   23,
+   24,
+   53
+  ],
+  "proj": [
+   1.16,
+   1.84
+  ],
+  "base": [
+   0.423,
+   0.256,
+   0.322
+  ],
+  "logged": "2026-10-31 01:18",
+  "result": null
+ },
+ "elversberg-vs-freiburg-20261121": {
+  "id": "elversberg-vs-freiburg-20261121",
+  "lg": "D1",
+  "home": "Elversberg",
+  "away": "Freiburg",
+  "utc": "2026-11-21T14:30:00Z",
+  "pct": [
+   43,
+   23,
+   34
+  ],
+  "proj": [
+   1.88,
+   1.67
+  ],
+  "base": [
+   0.423,
+   0.256,
+   0.322
+  ],
+  "logged": "2026-10-31 01:18",
+  "result": null
+ },
+ "m-gladbach-vs-dortmund-20261121": {
+  "id": "m-gladbach-vs-dortmund-20261121",
+  "lg": "D1",
+  "home": "M'gladbach",
+  "away": "Dortmund",
+  "utc": "2026-11-21T14:30:00Z",
+  "pct": [
+   22,
+   23,
+   55
+  ],
+  "proj": [
+   1.13,
+   1.92
+  ],
+  "base": [
+   0.423,
+   0.256,
+   0.322
+  ],
+  "logged": "2026-10-31 01:18",
+  "result": null
+ },
+ "ein-frankfurt-vs-hoffenheim-20261121": {
+  "id": "ein-frankfurt-vs-hoffenheim-20261121",
+  "lg": "D1",
+  "home": "Ein Frankfurt",
+  "away": "Hoffenheim",
+  "utc": "2026-11-21T14:30:00Z",
+  "pct": [
+   46,
+   22,
+   32
+  ],
+  "proj": [
+   2.1,
+   1.76
+  ],
+  "base": [
+   0.423,
+   0.256,
+   0.322
+  ],
+  "logged": "2026-10-31 01:18",
+  "result": null
+ },
+ "schalke-04-vs-stuttgart-20261121": {
+  "id": "schalke-04-vs-stuttgart-20261121",
+  "lg": "D1",
+  "home": "Schalke 04",
+  "away": "Stuttgart",
+  "utc": "2026-11-21T17:30:00Z",
+  "pct": [
+   28,
+   30,
+   42
+  ],
+  "proj": [
+   1.0,
+   1.27
+  ],
+  "base": [
+   0.423,
+   0.256,
+   0.322
+  ],
+  "logged": "2026-10-31 01:18",
+  "result": null
  }
 }
