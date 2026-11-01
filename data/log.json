@@ -3081,5 +3081,120 @@
   ],
   "logged": "2026-10-31 01:18",
   "result": null
+ },
+ "hull-vs-brighton-20261122": {
+  "id": "hull-vs-brighton-20261122",
+  "lg": "E0",
+  "home": "Hull",
+  "away": "Brighton",
+  "utc": "2026-11-22T14:00:00Z",
+  "pct": [
+   33,
+   29,
+   38
+  ],
+  "proj": [
+   1.18,
+   1.28
+  ],
+  "base": [
+   0.429,
+   0.25,
+   0.321
+  ],
+  "logged": "2026-11-01 01:26",
+  "result": null
+ },
+ "liverpool-vs-man-united-20261122": {
+  "id": "liverpool-vs-man-united-20261122",
+  "lg": "E0",
+  "home": "Liverpool",
+  "away": "Man United",
+  "utc": "2026-11-22T16:30:00Z",
+  "pct": [
+   53,
+   23,
+   24
+  ],
+  "proj": [
+   1.91,
+   1.24
+  ],
+  "base": [
+   0.429,
+   0.25,
+   0.321
+  ],
+  "logged": "2026-11-01 01:26",
+  "result": null
+ },
+ "burnley-vs-blackburn-20261122": {
+  "id": "burnley-vs-blackburn-20261122",
+  "lg": "E1",
+  "home": "Burnley",
+  "away": "Blackburn",
+  "utc": "2026-11-22T12:00:00Z",
+  "pct": [
+   50,
+   27,
+   23
+  ],
+  "proj": [
+   1.5,
+   0.93
+  ],
+  "base": [
+   0.437,
+   0.263,
+   0.3
+  ],
+  "logged": "2026-11-01 01:26",
+  "result": null
+ },
+ "augsburg-vs-mainz-20261122": {
+  "id": "augsburg-vs-mainz-20261122",
+  "lg": "D1",
+  "home": "Augsburg",
+  "away": "Mainz",
+  "utc": "2026-11-22T14:30:00Z",
+  "pct": [
+   40,
+   26,
+   34
+  ],
+  "proj": [
+   1.54,
+   1.41
+  ],
+  "base": [
+   0.423,
+   0.256,
+   0.322
+  ],
+  "logged": "2026-11-01 01:26",
+  "result": null
+ },
+ "werder-bremen-vs-hamburg-20261122": {
+  "id": "werder-bremen-vs-hamburg-20261122",
+  "lg": "D1",
+  "home": "Werder Bremen",
+  "away": "Hamburg",
+  "utc": "2026-11-22T16:30:00Z",
+  "pct": [
+   50,
+   25,
+   25
+  ],
+  "proj": [
+   1.68,
+   1.12
+  ],
+  "base": [
+   0.423,
+   0.256,
+   0.322
+  ],
+  "logged": "2026-11-01 01:26",
+  "result": null
  }
 }
