@@ -3196,5 +3196,28 @@
   ],
   "logged": "2026-11-01 01:26",
   "result": null
+ },
+ "brentford-vs-everton-20261123": {
+  "id": "brentford-vs-everton-20261123",
+  "lg": "E0",
+  "home": "Brentford",
+  "away": "Everton",
+  "utc": "2026-11-23T20:00:00Z",
+  "pct": [
+   47,
+   27,
+   26
+  ],
+  "proj": [
+   1.49,
+   1.05
+  ],
+  "base": [
+   0.429,
+   0.25,
+   0.321
+  ],
+  "logged": "2026-11-02 01:26",
+  "result": null
  }
 }

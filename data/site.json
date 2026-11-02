@@ -1689,131 +1689,6 @@
    ],
    "fixtures": [
     {
-     "id": "liverpool-vs-arsenal-20261101",
-     "utc": "2026-11-01T16:30:00Z",
-     "matchday": 9,
-     "home": "Liverpool",
-     "away": "Arsenal",
-     "home_slug": "liverpool",
-     "away_slug": "arsenal",
-     "pct": [
-      29,
-      27,
-      44
-     ],
-     "proj": [
-      1.13,
-      1.45
-     ],
-     "top": [
-      [
-       1,
-       1,
-       13.0
-      ],
-      [
-       0,
-       1,
-       10.4
-      ],
-      [
-       1,
-       2,
-       9.0
-      ],
-      [
-       0,
-       0,
-       8.2
-      ],
-      [
-       0,
-       2,
-       8.0
-      ]
-     ],
-     "grid": [
-      [
-       8.2,
-       10.4,
-       8.0,
-       3.9,
-       1.4
-      ],
-      [
-       7.9,
-       13.0,
-       9.0,
-       4.4,
-       1.6
-      ],
-      [
-       4.8,
-       7.0,
-       5.1,
-       2.5,
-       0.9
-      ],
-      [
-       1.8,
-       2.6,
-       1.9,
-       0.9,
-       0.3
-      ],
-      [
-       0.5,
-       0.7,
-       0.5,
-       0.3,
-       0.1
-      ]
-     ],
-     "new": [],
-     "h2h": [
-      {
-       "date": "2026-01-08",
-       "home": "Arsenal",
-       "away": "Liverpool",
-       "hg": 0,
-       "ag": 0
-      },
-      {
-       "date": "2025-08-31",
-       "home": "Liverpool",
-       "away": "Arsenal",
-       "hg": 1,
-       "ag": 0
-      },
-      {
-       "date": "2025-05-11",
-       "home": "Liverpool",
-       "away": "Arsenal",
-       "hg": 2,
-       "ag": 2
-      },
-      {
-       "date": "2024-10-27",
-       "home": "Arsenal",
-       "away": "Liverpool",
-       "hg": 2,
-       "ag": 2
-      },
-      {
-       "date": "2024-02-04",
-       "home": "Arsenal",
-       "away": "Liverpool",
-       "hg": 3,
-       "ag": 1
-      }
-     ],
-     "games": [
-      113,
-      113
-     ],
-     "limited": []
-    },
-    {
      "id": "newcastle-vs-everton-20261102",
      "utc": "2026-11-02T20:00:00Z",
      "matchday": 9,
@@ -4043,6 +3918,131 @@
        "away": "Liverpool",
        "hg": 2,
        "ag": 2
+      }
+     ],
+     "games": [
+      113,
+      113
+     ],
+     "limited": []
+    },
+    {
+     "id": "brentford-vs-everton-20261123",
+     "utc": "2026-11-23T20:00:00Z",
+     "matchday": 11,
+     "home": "Brentford",
+     "away": "Everton",
+     "home_slug": "brentford",
+     "away_slug": "everton",
+     "pct": [
+      47,
+      27,
+      26
+     ],
+     "proj": [
+      1.49,
+      1.05
+     ],
+     "top": [
+      [
+       1,
+       1,
+       13.0
+      ],
+      [
+       1,
+       0,
+       11.2
+      ],
+      [
+       2,
+       1,
+       9.2
+      ],
+      [
+       2,
+       0,
+       8.8
+      ],
+      [
+       0,
+       0,
+       8.6
+      ]
+     ],
+     "grid": [
+      [
+       8.6,
+       7.7,
+       4.3,
+       1.5,
+       0.4
+      ],
+      [
+       11.2,
+       13.0,
+       6.5,
+       2.3,
+       0.6
+      ],
+      [
+       8.8,
+       9.2,
+       4.8,
+       1.7,
+       0.4
+      ],
+      [
+       4.3,
+       4.5,
+       2.4,
+       0.8,
+       0.2
+      ],
+      [
+       1.6,
+       1.7,
+       0.9,
+       0.3,
+       0.1
+      ]
+     ],
+     "new": [],
+     "h2h": [
+      {
+       "date": "2026-04-11",
+       "home": "Brentford",
+       "away": "Everton",
+       "hg": 2,
+       "ag": 2
+      },
+      {
+       "date": "2026-01-04",
+       "home": "Everton",
+       "away": "Brentford",
+       "hg": 2,
+       "ag": 4
+      },
+      {
+       "date": "2025-02-26",
+       "home": "Brentford",
+       "away": "Everton",
+       "hg": 1,
+       "ag": 1
+      },
+      {
+       "date": "2024-11-23",
+       "home": "Everton",
+       "away": "Brentford",
+       "hg": 0,
+       "ag": 0
+      },
+      {
+       "date": "2024-04-27",
+       "home": "Everton",
+       "away": "Brentford",
+       "hg": 1,
+       "ag": 0
       }
      ],
      "games": [
@@ -13628,7 +13628,7 @@
     "base_brier": 0.6436
    }
   },
-  "pending": 104
+  "pending": 105
  },
  "played": [
   {
@@ -14221,5 +14221,5 @@
    "called": false
   }
  ],
- "generated_at": "2026-11-01 19:00 UTC"
+ "generated_at": "2026-11-02 01:26 UTC"
 }
