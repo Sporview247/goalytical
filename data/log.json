@@ -514,7 +514,10 @@
    0.32
   ],
   "logged": "2026-11-02 13:27",
-  "result": null
+  "result": {
+   "hg": 0,
+   "ag": 1
+  }
  },
  "everton-vs-coventry-20261106": {
   "id": "everton-vs-coventry-20261106",
@@ -3294,12 +3297,12 @@
   "away": "Everton",
   "utc": "2026-11-23T20:00:00Z",
   "pct": [
-   48,
+   47,
    27,
-   25
+   26
   ],
   "proj": [
-   1.5,
+   1.47,
    1.03
   ],
   "base": [
@@ -3307,7 +3310,7 @@
    0.25,
    0.32
   ],
-  "logged": "2026-11-02 13:27",
+  "logged": "2026-11-03 13:24",
   "result": null
  },
  "cardiff-vs-preston-20261124": {
