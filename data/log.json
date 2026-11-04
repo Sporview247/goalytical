@@ -3496,5 +3496,97 @@
   ],
   "logged": "2026-11-03 01:23",
   "result": null
+ },
+ "watford-vs-blackburn-20261125": {
+  "id": "watford-vs-blackburn-20261125",
+  "lg": "E1",
+  "home": "Watford",
+  "away": "Blackburn",
+  "utc": "2026-11-25T19:45:00Z",
+  "pct": [
+   37,
+   30,
+   33
+  ],
+  "proj": [
+   1.2,
+   1.11
+  ],
+  "base": [
+   0.438,
+   0.264,
+   0.298
+  ],
+  "logged": "2026-11-04 01:24",
+  "result": null
+ },
+ "bolton-vs-west-brom-20261125": {
+  "id": "bolton-vs-west-brom-20261125",
+  "lg": "E1",
+  "home": "Bolton",
+  "away": "West Brom",
+  "utc": "2026-11-25T19:45:00Z",
+  "pct": [
+   33,
+   27,
+   40
+  ],
+  "proj": [
+   1.29,
+   1.43
+  ],
+  "base": [
+   0.438,
+   0.264,
+   0.298
+  ],
+  "logged": "2026-11-04 01:24",
+  "result": null
+ },
+ "burnley-vs-birmingham-20261125": {
+  "id": "burnley-vs-birmingham-20261125",
+  "lg": "E1",
+  "home": "Burnley",
+  "away": "Birmingham",
+  "utc": "2026-11-25T19:45:00Z",
+  "pct": [
+   43,
+   28,
+   29
+  ],
+  "proj": [
+   1.38,
+   1.07
+  ],
+  "base": [
+   0.438,
+   0.264,
+   0.298
+  ],
+  "logged": "2026-11-04 01:24",
+  "result": null
+ },
+ "stoke-vs-millwall-20261125": {
+  "id": "stoke-vs-millwall-20261125",
+  "lg": "E1",
+  "home": "Stoke",
+  "away": "Millwall",
+  "utc": "2026-11-25T20:00:00Z",
+  "pct": [
+   35,
+   29,
+   36
+  ],
+  "proj": [
+   1.16,
+   1.17
+  ],
+  "base": [
+   0.438,
+   0.264,
+   0.298
+  ],
+  "logged": "2026-11-04 01:24",
+  "result": null
  }
 }
