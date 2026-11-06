@@ -3925,6 +3925,131 @@
       113
      ],
      "limited": []
+    },
+    {
+     "id": "nott-m-forest-vs-chelsea-20261127",
+     "utc": "2026-11-27T20:00:00Z",
+     "matchday": 12,
+     "home": "Nott'm Forest",
+     "away": "Chelsea",
+     "home_slug": "nott-m-forest",
+     "away_slug": "chelsea",
+     "pct": [
+      35,
+      26,
+      39
+     ],
+     "proj": [
+      1.39,
+      1.46
+     ],
+     "top": [
+      [
+       1,
+       1,
+       12.3
+      ],
+      [
+       1,
+       2,
+       8.6
+      ],
+      [
+       2,
+       1,
+       8.1
+      ],
+      [
+       0,
+       1,
+       7.9
+      ],
+      [
+       1,
+       0,
+       7.4
+      ]
+     ],
+     "grid": [
+      [
+       6.4,
+       7.9,
+       6.2,
+       3.0,
+       1.1
+      ],
+      [
+       7.4,
+       12.3,
+       8.6,
+       4.2,
+       1.5
+      ],
+      [
+       5.6,
+       8.1,
+       6.0,
+       2.9,
+       1.1
+      ],
+      [
+       2.6,
+       3.8,
+       2.8,
+       1.3,
+       0.5
+      ],
+      [
+       0.9,
+       1.3,
+       1.0,
+       0.5,
+       0.2
+      ]
+     ],
+     "new": [],
+     "h2h": [
+      {
+       "date": "2026-05-04",
+       "home": "Chelsea",
+       "away": "Nott'm Forest",
+       "hg": 1,
+       "ag": 3
+      },
+      {
+       "date": "2025-10-18",
+       "home": "Nott'm Forest",
+       "away": "Chelsea",
+       "hg": 0,
+       "ag": 3
+      },
+      {
+       "date": "2025-05-25",
+       "home": "Nott'm Forest",
+       "away": "Chelsea",
+       "hg": 0,
+       "ag": 1
+      },
+      {
+       "date": "2024-10-06",
+       "home": "Chelsea",
+       "away": "Nott'm Forest",
+       "hg": 1,
+       "ag": 1
+      },
+      {
+       "date": "2024-05-11",
+       "home": "Nott'm Forest",
+       "away": "Chelsea",
+       "hg": 2,
+       "ag": 3
+      }
+     ],
+     "games": [
+      113,
+      113
+     ],
+     "limited": []
     }
    ],
    "averages": {
@@ -9838,6 +9963,124 @@
       138
      ],
      "limited": []
+    },
+    {
+     "id": "southampton-vs-middlesbrough-20261127",
+     "utc": "2026-11-27T20:00:00Z",
+     "matchday": 18,
+     "home": "Southampton",
+     "away": "Middlesbrough",
+     "home_slug": "southampton",
+     "away_slug": "middlesbrough",
+     "pct": [
+      51,
+      24,
+      25
+     ],
+     "proj": [
+      1.88,
+      1.27
+     ],
+     "top": [
+      [
+       1,
+       1,
+       10.8
+      ],
+      [
+       2,
+       1,
+       9.6
+      ],
+      [
+       2,
+       0,
+       7.6
+      ],
+      [
+       1,
+       0,
+       7.5
+      ],
+      [
+       1,
+       2,
+       6.5
+      ]
+     ],
+     "grid": [
+      [
+       4.8,
+       4.9,
+       3.5,
+       1.5,
+       0.5
+      ],
+      [
+       7.5,
+       10.8,
+       6.5,
+       2.8,
+       0.9
+      ],
+      [
+       7.6,
+       9.6,
+       6.1,
+       2.6,
+       0.8
+      ],
+      [
+       4.7,
+       6.0,
+       3.8,
+       1.6,
+       0.5
+      ],
+      [
+       2.2,
+       2.8,
+       1.8,
+       0.8,
+       0.2
+      ]
+     ],
+     "new": [],
+     "h2h": [
+      {
+       "date": "2026-01-04",
+       "home": "Middlesbrough",
+       "away": "Southampton",
+       "hg": 4,
+       "ag": 0
+      },
+      {
+       "date": "2025-09-27",
+       "home": "Southampton",
+       "away": "Middlesbrough",
+       "hg": 1,
+       "ag": 1
+      },
+      {
+       "date": "2024-03-29",
+       "home": "Southampton",
+       "away": "Middlesbrough",
+       "hg": 1,
+       "ag": 1
+      },
+      {
+       "date": "2023-09-23",
+       "home": "Middlesbrough",
+       "away": "Southampton",
+       "hg": 2,
+       "ag": 1
+      }
+     ],
+     "games": [
+      92,
+      138
+     ],
+     "limited": []
     }
    ],
    "averages": {
@@ -13356,6 +13599,131 @@
       42
      ],
      "limited": []
+    },
+    {
+     "id": "werder-bremen-vs-m-gladbach-20261127",
+     "utc": "2026-11-27T19:30:00Z",
+     "matchday": 11,
+     "home": "Werder Bremen",
+     "away": "M'gladbach",
+     "home_slug": "werder-bremen",
+     "away_slug": "m-gladbach",
+     "pct": [
+      48,
+      24,
+      28
+     ],
+     "proj": [
+      1.76,
+      1.29
+     ],
+     "top": [
+      [
+       1,
+       1,
+       11.3
+      ],
+      [
+       2,
+       1,
+       9.5
+      ],
+      [
+       1,
+       0,
+       7.8
+      ],
+      [
+       2,
+       0,
+       7.3
+      ],
+      [
+       1,
+       2,
+       6.9
+      ]
+     ],
+     "grid": [
+      [
+       5.3,
+       5.6,
+       3.9,
+       1.7,
+       0.6
+      ],
+      [
+       7.8,
+       11.3,
+       6.9,
+       3.0,
+       1.0
+      ],
+      [
+       7.3,
+       9.5,
+       6.1,
+       2.6,
+       0.9
+      ],
+      [
+       4.3,
+       5.5,
+       3.6,
+       1.5,
+       0.5
+      ],
+      [
+       1.9,
+       2.4,
+       1.6,
+       0.7,
+       0.2
+      ]
+     ],
+     "new": [],
+     "h2h": [
+      {
+       "date": "2026-01-31",
+       "home": "Werder Bremen",
+       "away": "M'gladbach",
+       "hg": 1,
+       "ag": 1
+      },
+      {
+       "date": "2025-09-14",
+       "home": "M'gladbach",
+       "away": "Werder Bremen",
+       "hg": 0,
+       "ag": 4
+      },
+      {
+       "date": "2025-03-15",
+       "home": "Werder Bremen",
+       "away": "M'gladbach",
+       "hg": 2,
+       "ag": 4
+      },
+      {
+       "date": "2024-11-03",
+       "home": "M'gladbach",
+       "away": "Werder Bremen",
+       "hg": 4,
+       "ag": 1
+      },
+      {
+       "date": "2024-05-04",
+       "home": "Werder Bremen",
+       "away": "M'gladbach",
+       "hg": 2,
+       "ag": 2
+      }
+     ],
+     "games": [
+      101,
+      101
+     ],
+     "limited": []
     }
    ],
    "averages": {
@@ -13495,7 +13863,7 @@
     "base_brier": 0.6618
    }
   },
-  "pending": 74
+  "pending": 77
  },
  "played": [
   {
@@ -14639,5 +15007,5 @@
    "called": false
   }
  ],
- "generated_at": "2026-11-05 19:14 UTC"
+ "generated_at": "2026-11-06 01:29 UTC"
 }

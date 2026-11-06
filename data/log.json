@@ -3624,5 +3624,74 @@
   ],
   "logged": "2026-11-05 01:26",
   "result": null
+ },
+ "nott-m-forest-vs-chelsea-20261127": {
+  "id": "nott-m-forest-vs-chelsea-20261127",
+  "lg": "E0",
+  "home": "Nott'm Forest",
+  "away": "Chelsea",
+  "utc": "2026-11-27T20:00:00Z",
+  "pct": [
+   35,
+   26,
+   39
+  ],
+  "proj": [
+   1.39,
+   1.46
+  ],
+  "base": [
+   0.429,
+   0.25,
+   0.32
+  ],
+  "logged": "2026-11-06 01:28",
+  "result": null
+ },
+ "southampton-vs-middlesbrough-20261127": {
+  "id": "southampton-vs-middlesbrough-20261127",
+  "lg": "E1",
+  "home": "Southampton",
+  "away": "Middlesbrough",
+  "utc": "2026-11-27T20:00:00Z",
+  "pct": [
+   51,
+   24,
+   25
+  ],
+  "proj": [
+   1.88,
+   1.27
+  ],
+  "base": [
+   0.436,
+   0.265,
+   0.299
+  ],
+  "logged": "2026-11-06 01:28",
+  "result": null
+ },
+ "werder-bremen-vs-m-gladbach-20261127": {
+  "id": "werder-bremen-vs-m-gladbach-20261127",
+  "lg": "D1",
+  "home": "Werder Bremen",
+  "away": "M'gladbach",
+  "utc": "2026-11-27T19:30:00Z",
+  "pct": [
+   48,
+   24,
+   28
+  ],
+  "proj": [
+   1.76,
+   1.29
+  ],
+  "base": [
+   0.419,
+   0.258,
+   0.323
+  ],
+  "logged": "2026-11-06 01:28",
+  "result": null
  }
 }
