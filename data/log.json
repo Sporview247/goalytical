@@ -4430,5 +4430,28 @@
   ],
   "logged": "2026-11-08 01:25",
   "result": null
+ },
+ "coventry-vs-ipswich-20261201": {
+  "id": "coventry-vs-ipswich-20261201",
+  "lg": "E0",
+  "home": "Coventry",
+  "away": "Ipswich",
+  "utc": "2026-12-01T20:00:00Z",
+  "pct": [
+   48,
+   23,
+   29
+  ],
+  "proj": [
+   1.88,
+   1.43
+  ],
+  "base": [
+   0.43,
+   0.251,
+   0.32
+  ],
+  "logged": "2026-11-10 01:22",
+  "result": null
  }
 }
