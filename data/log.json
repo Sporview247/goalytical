@@ -4453,5 +4453,189 @@
   ],
   "logged": "2026-11-10 01:22",
   "result": null
+ },
+ "liverpool-vs-sunderland-20261202": {
+  "id": "liverpool-vs-sunderland-20261202",
+  "lg": "E0",
+  "home": "Liverpool",
+  "away": "Sunderland",
+  "utc": "2026-12-02T19:30:00Z",
+  "pct": [
+   61,
+   23,
+   16
+  ],
+  "proj": [
+   1.89,
+   0.87
+  ],
+  "base": [
+   0.43,
+   0.251,
+   0.32
+  ],
+  "logged": "2026-11-11 01:23",
+  "result": null
+ },
+ "hull-vs-nott-m-forest-20261202": {
+  "id": "hull-vs-nott-m-forest-20261202",
+  "lg": "E0",
+  "home": "Hull",
+  "away": "Nott'm Forest",
+  "utc": "2026-12-02T19:30:00Z",
+  "pct": [
+   40,
+   30,
+   30
+  ],
+  "proj": [
+   1.19,
+   1.01
+  ],
+  "base": [
+   0.43,
+   0.251,
+   0.32
+  ],
+  "logged": "2026-11-11 01:23",
+  "result": null
+ },
+ "chelsea-vs-crystal-palace-20261202": {
+  "id": "chelsea-vs-crystal-palace-20261202",
+  "lg": "E0",
+  "home": "Chelsea",
+  "away": "Crystal Palace",
+  "utc": "2026-12-02T19:30:00Z",
+  "pct": [
+   58,
+   22,
+   20
+  ],
+  "proj": [
+   2.03,
+   1.11
+  ],
+  "base": [
+   0.43,
+   0.251,
+   0.32
+  ],
+  "logged": "2026-11-11 01:23",
+  "result": null
+ },
+ "man-city-vs-leeds-20261202": {
+  "id": "man-city-vs-leeds-20261202",
+  "lg": "E0",
+  "home": "Man City",
+  "away": "Leeds",
+  "utc": "2026-12-02T19:30:00Z",
+  "pct": [
+   61,
+   23,
+   16
+  ],
+  "proj": [
+   1.88,
+   0.88
+  ],
+  "base": [
+   0.43,
+   0.251,
+   0.32
+  ],
+  "logged": "2026-11-11 01:23",
+  "result": null
+ },
+ "aston-villa-vs-everton-20261202": {
+  "id": "aston-villa-vs-everton-20261202",
+  "lg": "E0",
+  "home": "Aston Villa",
+  "away": "Everton",
+  "utc": "2026-12-02T20:15:00Z",
+  "pct": [
+   45,
+   27,
+   28
+  ],
+  "proj": [
+   1.46,
+   1.09
+  ],
+  "base": [
+   0.43,
+   0.251,
+   0.32
+  ],
+  "logged": "2026-11-11 01:23",
+  "result": null
+ },
+ "brentford-vs-arsenal-20261202": {
+  "id": "brentford-vs-arsenal-20261202",
+  "lg": "E0",
+  "home": "Brentford",
+  "away": "Arsenal",
+  "utc": "2026-12-02T20:15:00Z",
+  "pct": [
+   22,
+   27,
+   51
+  ],
+  "proj": [
+   0.95,
+   1.55
+  ],
+  "base": [
+   0.43,
+   0.251,
+   0.32
+  ],
+  "logged": "2026-11-11 01:23",
+  "result": null
+ },
+ "newcastle-vs-man-united-20261202": {
+  "id": "newcastle-vs-man-united-20261202",
+  "lg": "E0",
+  "home": "Newcastle",
+  "away": "Man United",
+  "utc": "2026-12-02T20:15:00Z",
+  "pct": [
+   43,
+   24,
+   33
+  ],
+  "proj": [
+   1.75,
+   1.49
+  ],
+  "base": [
+   0.43,
+   0.251,
+   0.32
+  ],
+  "logged": "2026-11-11 01:23",
+  "result": null
+ },
+ "bournemouth-vs-brighton-20261202": {
+  "id": "bournemouth-vs-brighton-20261202",
+  "lg": "E0",
+  "home": "Bournemouth",
+  "away": "Brighton",
+  "utc": "2026-12-02T20:15:00Z",
+  "pct": [
+   37,
+   26,
+   37
+  ],
+  "proj": [
+   1.44,
+   1.43
+  ],
+  "base": [
+   0.43,
+   0.251,
+   0.32
+  ],
+  "logged": "2026-11-11 01:23",
+  "result": null
  }
 }

@@ -4037,6 +4037,930 @@
      "limited": [
       "Coventry"
      ]
+    },
+    {
+     "id": "liverpool-vs-sunderland-20261202",
+     "utc": "2026-12-02T19:30:00Z",
+     "matchday": 13,
+     "home": "Liverpool",
+     "away": "Sunderland",
+     "home_slug": "liverpool",
+     "away_slug": "sunderland",
+     "pct": [
+      61,
+      23,
+      16
+     ],
+     "proj": [
+      1.89,
+      0.87
+     ],
+     "top": [
+      [
+       1,
+       0,
+       11.4
+      ],
+      [
+       2,
+       0,
+       11.3
+      ],
+      [
+       1,
+       1,
+       10.9
+      ],
+      [
+       2,
+       1,
+       9.8
+      ],
+      [
+       3,
+       0,
+       7.1
+      ]
+     ],
+     "grid": [
+      [
+       6.8,
+       5.0,
+       2.4,
+       0.7,
+       0.2
+      ],
+      [
+       11.4,
+       10.9,
+       4.5,
+       1.3,
+       0.3
+      ],
+      [
+       11.3,
+       9.8,
+       4.3,
+       1.2,
+       0.3
+      ],
+      [
+       7.1,
+       6.2,
+       2.7,
+       0.8,
+       0.2
+      ],
+      [
+       3.4,
+       2.9,
+       1.3,
+       0.4,
+       0.1
+      ]
+     ],
+     "new": [],
+     "h2h": [
+      {
+       "date": "2026-02-11",
+       "home": "Sunderland",
+       "away": "Liverpool",
+       "hg": 0,
+       "ag": 1
+      },
+      {
+       "date": "2025-12-03",
+       "home": "Liverpool",
+       "away": "Sunderland",
+       "hg": 1,
+       "ag": 1
+      }
+     ],
+     "games": [
+      114,
+      48
+     ],
+     "limited": []
+    },
+    {
+     "id": "hull-vs-nott-m-forest-20261202",
+     "utc": "2026-12-02T19:30:00Z",
+     "matchday": 13,
+     "home": "Hull",
+     "away": "Nott'm Forest",
+     "home_slug": "hull",
+     "away_slug": "nott-m-forest",
+     "pct": [
+      40,
+      30,
+      30
+     ],
+     "proj": [
+      1.19,
+      1.01
+     ],
+     "top": [
+      [
+       1,
+       1,
+       14.0
+      ],
+      [
+       1,
+       0,
+       12.5
+      ],
+      [
+       0,
+       0,
+       11.7
+      ],
+      [
+       0,
+       1,
+       10.5
+      ],
+      [
+       2,
+       1,
+       7.9
+      ]
+     ],
+     "grid": [
+      [
+       11.7,
+       10.5,
+       5.6,
+       1.9,
+       0.5
+      ],
+      [
+       12.5,
+       14.0,
+       6.7,
+       2.3,
+       0.6
+      ],
+      [
+       7.9,
+       7.9,
+       4.0,
+       1.3,
+       0.3
+      ],
+      [
+       3.1,
+       3.2,
+       1.6,
+       0.5,
+       0.1
+      ],
+      [
+       0.9,
+       0.9,
+       0.5,
+       0.2,
+       0.0
+      ]
+     ],
+     "new": [],
+     "h2h": [],
+     "games": [
+      10,
+      114
+     ],
+     "limited": [
+      "Hull"
+     ]
+    },
+    {
+     "id": "chelsea-vs-crystal-palace-20261202",
+     "utc": "2026-12-02T19:30:00Z",
+     "matchday": 13,
+     "home": "Chelsea",
+     "away": "Crystal Palace",
+     "home_slug": "chelsea",
+     "away_slug": "crystal-palace",
+     "pct": [
+      58,
+      22,
+      20
+     ],
+     "proj": [
+      2.03,
+      1.11
+     ],
+     "top": [
+      [
+       1,
+       1,
+       10.2
+      ],
+      [
+       2,
+       1,
+       9.9
+      ],
+      [
+       2,
+       0,
+       8.9
+      ],
+      [
+       1,
+       0,
+       8.3
+      ],
+      [
+       3,
+       1,
+       6.7
+      ]
+     ],
+     "grid": [
+      [
+       4.8,
+       4.3,
+       2.7,
+       1.0,
+       0.3
+      ],
+      [
+       8.3,
+       10.2,
+       5.4,
+       2.0,
+       0.6
+      ],
+      [
+       8.9,
+       9.9,
+       5.5,
+       2.0,
+       0.6
+      ],
+      [
+       6.1,
+       6.7,
+       3.7,
+       1.4,
+       0.4
+      ],
+      [
+       3.1,
+       3.4,
+       1.9,
+       0.7,
+       0.2
+      ]
+     ],
+     "new": [],
+     "h2h": [
+      {
+       "date": "2026-01-25",
+       "home": "Crystal Palace",
+       "away": "Chelsea",
+       "hg": 1,
+       "ag": 3
+      },
+      {
+       "date": "2025-08-17",
+       "home": "Chelsea",
+       "away": "Crystal Palace",
+       "hg": 0,
+       "ag": 0
+      },
+      {
+       "date": "2025-01-04",
+       "home": "Crystal Palace",
+       "away": "Chelsea",
+       "hg": 1,
+       "ag": 1
+      },
+      {
+       "date": "2024-09-01",
+       "home": "Chelsea",
+       "away": "Crystal Palace",
+       "hg": 1,
+       "ag": 1
+      },
+      {
+       "date": "2024-02-12",
+       "home": "Crystal Palace",
+       "away": "Chelsea",
+       "hg": 1,
+       "ag": 3
+      }
+     ],
+     "games": [
+      114,
+      113
+     ],
+     "limited": []
+    },
+    {
+     "id": "man-city-vs-leeds-20261202",
+     "utc": "2026-12-02T19:30:00Z",
+     "matchday": 13,
+     "home": "Man City",
+     "away": "Leeds",
+     "home_slug": "man-city",
+     "away_slug": "leeds",
+     "pct": [
+      61,
+      23,
+      16
+     ],
+     "proj": [
+      1.88,
+      0.88
+     ],
+     "top": [
+      [
+       1,
+       0,
+       11.4
+      ],
+      [
+       2,
+       0,
+       11.2
+      ],
+      [
+       1,
+       1,
+       11.0
+      ],
+      [
+       2,
+       1,
+       9.8
+      ],
+      [
+       3,
+       0,
+       7.1
+      ]
+     ],
+     "grid": [
+      [
+       6.9,
+       5.0,
+       2.4,
+       0.7,
+       0.2
+      ],
+      [
+       11.4,
+       11.0,
+       4.6,
+       1.3,
+       0.3
+      ],
+      [
+       11.2,
+       9.8,
+       4.3,
+       1.3,
+       0.3
+      ],
+      [
+       7.1,
+       6.2,
+       2.7,
+       0.8,
+       0.2
+      ],
+      [
+       3.3,
+       2.9,
+       1.3,
+       0.4,
+       0.1
+      ]
+     ],
+     "new": [],
+     "h2h": [
+      {
+       "date": "2026-02-28",
+       "home": "Leeds",
+       "away": "Man City",
+       "hg": 0,
+       "ag": 1
+      },
+      {
+       "date": "2025-11-29",
+       "home": "Man City",
+       "away": "Leeds",
+       "hg": 3,
+       "ag": 2
+      }
+     ],
+     "games": [
+      113,
+      48
+     ],
+     "limited": []
+    },
+    {
+     "id": "aston-villa-vs-everton-20261202",
+     "utc": "2026-12-02T20:15:00Z",
+     "matchday": 13,
+     "home": "Aston Villa",
+     "away": "Everton",
+     "home_slug": "aston-villa",
+     "away_slug": "everton",
+     "pct": [
+      45,
+      27,
+      28
+     ],
+     "proj": [
+      1.46,
+      1.09
+     ],
+     "top": [
+      [
+       1,
+       1,
+       13.0
+      ],
+      [
+       1,
+       0,
+       10.8
+      ],
+      [
+       2,
+       1,
+       9.1
+      ],
+      [
+       0,
+       0,
+       8.4
+      ],
+      [
+       2,
+       0,
+       8.3
+      ]
+     ],
+     "grid": [
+      [
+       8.4,
+       7.9,
+       4.6,
+       1.7,
+       0.5
+      ],
+      [
+       10.8,
+       13.0,
+       6.8,
+       2.5,
+       0.7
+      ],
+      [
+       8.3,
+       9.1,
+       4.9,
+       1.8,
+       0.5
+      ],
+      [
+       4.1,
+       4.4,
+       2.4,
+       0.9,
+       0.2
+      ],
+      [
+       1.5,
+       1.6,
+       0.9,
+       0.3,
+       0.1
+      ]
+     ],
+     "new": [],
+     "h2h": [
+      {
+       "date": "2026-01-18",
+       "home": "Aston Villa",
+       "away": "Everton",
+       "hg": 0,
+       "ag": 1
+      },
+      {
+       "date": "2025-09-13",
+       "home": "Everton",
+       "away": "Aston Villa",
+       "hg": 0,
+       "ag": 0
+      },
+      {
+       "date": "2025-01-15",
+       "home": "Everton",
+       "away": "Aston Villa",
+       "hg": 0,
+       "ag": 1
+      },
+      {
+       "date": "2024-09-14",
+       "home": "Aston Villa",
+       "away": "Everton",
+       "hg": 3,
+       "ag": 2
+      },
+      {
+       "date": "2024-01-14",
+       "home": "Everton",
+       "away": "Aston Villa",
+       "hg": 0,
+       "ag": 0
+      }
+     ],
+     "games": [
+      114,
+      113
+     ],
+     "limited": []
+    },
+    {
+     "id": "brentford-vs-arsenal-20261202",
+     "utc": "2026-12-02T20:15:00Z",
+     "matchday": 13,
+     "home": "Brentford",
+     "away": "Arsenal",
+     "home_slug": "brentford",
+     "away_slug": "arsenal",
+     "pct": [
+      22,
+      27,
+      51
+     ],
+     "proj": [
+      0.95,
+      1.55
+     ],
+     "top": [
+      [
+       1,
+       1,
+       12.7
+      ],
+      [
+       0,
+       1,
+       12.1
+      ],
+      [
+       0,
+       2,
+       9.9
+      ],
+      [
+       1,
+       2,
+       9.4
+      ],
+      [
+       0,
+       0,
+       8.8
+      ]
+     ],
+     "grid": [
+      [
+       8.8,
+       12.1,
+       9.9,
+       5.1,
+       2.0
+      ],
+      [
+       7.2,
+       12.7,
+       9.4,
+       4.8,
+       1.9
+      ],
+      [
+       3.7,
+       5.7,
+       4.5,
+       2.3,
+       0.9
+      ],
+      [
+       1.2,
+       1.8,
+       1.4,
+       0.7,
+       0.3
+      ],
+      [
+       0.3,
+       0.4,
+       0.3,
+       0.2,
+       0.1
+      ]
+     ],
+     "new": [],
+     "h2h": [
+      {
+       "date": "2026-02-12",
+       "home": "Brentford",
+       "away": "Arsenal",
+       "hg": 1,
+       "ag": 1
+      },
+      {
+       "date": "2025-12-03",
+       "home": "Arsenal",
+       "away": "Brentford",
+       "hg": 2,
+       "ag": 0
+      },
+      {
+       "date": "2025-04-12",
+       "home": "Arsenal",
+       "away": "Brentford",
+       "hg": 1,
+       "ag": 1
+      },
+      {
+       "date": "2025-01-01",
+       "home": "Brentford",
+       "away": "Arsenal",
+       "hg": 1,
+       "ag": 3
+      },
+      {
+       "date": "2024-03-09",
+       "home": "Arsenal",
+       "away": "Brentford",
+       "hg": 2,
+       "ag": 1
+      }
+     ],
+     "games": [
+      113,
+      113
+     ],
+     "limited": []
+    },
+    {
+     "id": "newcastle-vs-man-united-20261202",
+     "utc": "2026-12-02T20:15:00Z",
+     "matchday": 13,
+     "home": "Newcastle",
+     "away": "Man United",
+     "home_slug": "newcastle",
+     "away_slug": "man-united",
+     "pct": [
+      43,
+      24,
+      33
+     ],
+     "proj": [
+      1.75,
+      1.49
+     ],
+     "top": [
+      [
+       1,
+       1,
+       10.7
+      ],
+      [
+       2,
+       1,
+       8.9
+      ],
+      [
+       1,
+       2,
+       7.6
+      ],
+      [
+       2,
+       2,
+       6.7
+      ],
+      [
+       1,
+       0,
+       6.3
+      ]
+     ],
+     "grid": [
+      [
+       4.4,
+       5.3,
+       4.4,
+       2.2,
+       0.8
+      ],
+      [
+       6.3,
+       10.7,
+       7.6,
+       3.8,
+       1.4
+      ],
+      [
+       6.0,
+       8.9,
+       6.7,
+       3.3,
+       1.2
+      ],
+      [
+       3.5,
+       5.2,
+       3.9,
+       1.9,
+       0.7
+      ],
+      [
+       1.5,
+       2.3,
+       1.7,
+       0.8,
+       0.3
+      ]
+     ],
+     "new": [],
+     "h2h": [
+      {
+       "date": "2026-03-04",
+       "home": "Newcastle",
+       "away": "Man United",
+       "hg": 2,
+       "ag": 1
+      },
+      {
+       "date": "2025-12-26",
+       "home": "Man United",
+       "away": "Newcastle",
+       "hg": 1,
+       "ag": 0
+      },
+      {
+       "date": "2025-04-13",
+       "home": "Newcastle",
+       "away": "Man United",
+       "hg": 4,
+       "ag": 1
+      },
+      {
+       "date": "2024-12-30",
+       "home": "Man United",
+       "away": "Newcastle",
+       "hg": 0,
+       "ag": 2
+      },
+      {
+       "date": "2024-05-15",
+       "home": "Man United",
+       "away": "Newcastle",
+       "hg": 3,
+       "ag": 2
+      }
+     ],
+     "games": [
+      113,
+      113
+     ],
+     "limited": []
+    },
+    {
+     "id": "bournemouth-vs-brighton-20261202",
+     "utc": "2026-12-02T20:15:00Z",
+     "matchday": 13,
+     "home": "Bournemouth",
+     "away": "Brighton",
+     "home_slug": "bournemouth",
+     "away_slug": "brighton",
+     "pct": [
+      37,
+      26,
+      37
+     ],
+     "proj": [
+      1.44,
+      1.43
+     ],
+     "top": [
+      [
+       1,
+       1,
+       12.2
+      ],
+      [
+       2,
+       1,
+       8.4
+      ],
+      [
+       1,
+       2,
+       8.3
+      ],
+      [
+       1,
+       0,
+       7.6
+      ],
+      [
+       0,
+       1,
+       7.5
+      ]
+     ],
+     "grid": [
+      [
+       6.2,
+       7.5,
+       5.8,
+       2.8,
+       1.0
+      ],
+      [
+       7.6,
+       12.2,
+       8.3,
+       4.0,
+       1.4
+      ],
+      [
+       5.9,
+       8.4,
+       6.0,
+       2.9,
+       1.0
+      ],
+      [
+       2.8,
+       4.0,
+       2.9,
+       1.4,
+       0.5
+      ],
+      [
+       1.0,
+       1.5,
+       1.0,
+       0.5,
+       0.2
+      ]
+     ],
+     "new": [],
+     "h2h": [
+      {
+       "date": "2026-01-19",
+       "home": "Brighton",
+       "away": "Bournemouth",
+       "hg": 1,
+       "ag": 1
+      },
+      {
+       "date": "2025-09-13",
+       "home": "Bournemouth",
+       "away": "Brighton",
+       "hg": 2,
+       "ag": 1
+      },
+      {
+       "date": "2025-02-25",
+       "home": "Brighton",
+       "away": "Bournemouth",
+       "hg": 2,
+       "ag": 1
+      },
+      {
+       "date": "2024-11-23",
+       "home": "Bournemouth",
+       "away": "Brighton",
+       "hg": 1,
+       "ag": 2
+      },
+      {
+       "date": "2024-04-28",
+       "home": "Bournemouth",
+       "away": "Brighton",
+       "hg": 3,
+       "ag": 0
+      }
+     ],
+     "games": [
+      113,
+      113
+     ],
+     "limited": []
     }
    ],
    "averages": {
@@ -13656,7 +14580,7 @@
     "base_brier": 0.6367
    }
   },
-  "pending": 75
+  "pending": 83
  },
  "played": [
   {
@@ -14800,5 +15724,5 @@
    "called": true
   }
  ],
- "generated_at": "2026-11-10 01:22 UTC"
+ "generated_at": "2026-11-11 01:23 UTC"
 }
