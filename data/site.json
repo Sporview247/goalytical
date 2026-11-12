@@ -4961,6 +4961,131 @@
       113
      ],
      "limited": []
+    },
+    {
+     "id": "tottenham-vs-fulham-20261203",
+     "utc": "2026-12-03T20:00:00Z",
+     "matchday": 13,
+     "home": "Tottenham",
+     "away": "Fulham",
+     "home_slug": "tottenham",
+     "away_slug": "fulham",
+     "pct": [
+      40,
+      28,
+      32
+     ],
+     "proj": [
+      1.38,
+      1.2
+     ],
+     "top": [
+      [
+       1,
+       1,
+       13.2
+      ],
+      [
+       1,
+       0,
+       9.8
+      ],
+      [
+       2,
+       1,
+       8.6
+      ],
+      [
+       0,
+       1,
+       8.5
+      ],
+      [
+       0,
+       0,
+       8.2
+      ]
+     ],
+     "grid": [
+      [
+       8.2,
+       8.5,
+       5.5,
+       2.2,
+       0.7
+      ],
+      [
+       9.8,
+       13.2,
+       7.5,
+       3.0,
+       0.9
+      ],
+      [
+       7.2,
+       8.6,
+       5.2,
+       2.1,
+       0.6
+      ],
+      [
+       3.3,
+       4.0,
+       2.4,
+       1.0,
+       0.3
+      ],
+      [
+       1.1,
+       1.4,
+       0.8,
+       0.3,
+       0.1
+      ]
+     ],
+     "new": [],
+     "h2h": [
+      {
+       "date": "2026-03-01",
+       "home": "Fulham",
+       "away": "Tottenham",
+       "hg": 2,
+       "ag": 1
+      },
+      {
+       "date": "2025-11-29",
+       "home": "Tottenham",
+       "away": "Fulham",
+       "hg": 1,
+       "ag": 2
+      },
+      {
+       "date": "2025-03-16",
+       "home": "Fulham",
+       "away": "Tottenham",
+       "hg": 2,
+       "ag": 0
+      },
+      {
+       "date": "2024-12-01",
+       "home": "Tottenham",
+       "away": "Fulham",
+       "hg": 1,
+       "ag": 1
+      },
+      {
+       "date": "2024-03-16",
+       "home": "Fulham",
+       "away": "Tottenham",
+       "hg": 3,
+       "ag": 0
+      }
+     ],
+     "games": [
+      114,
+      113
+     ],
+     "limited": []
     }
    ],
    "averages": {
@@ -14580,7 +14705,7 @@
     "base_brier": 0.6367
    }
   },
-  "pending": 83
+  "pending": 84
  },
  "played": [
   {
@@ -15724,5 +15849,5 @@
    "called": true
   }
  ],
- "generated_at": "2026-11-11 01:23 UTC"
+ "generated_at": "2026-11-12 01:30 UTC"
 }
