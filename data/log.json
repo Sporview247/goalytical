@@ -5235,5 +5235,143 @@
   ],
   "logged": "2026-11-14 01:22",
   "result": null
+ },
+ "newcastle-vs-sunderland-20261206": {
+  "id": "newcastle-vs-sunderland-20261206",
+  "lg": "E0",
+  "home": "Newcastle",
+  "away": "Sunderland",
+  "utc": "2026-12-06T14:00:00Z",
+  "pct": [
+   51,
+   26,
+   23
+  ],
+  "proj": [
+   1.64,
+   1.04
+  ],
+  "base": [
+   0.43,
+   0.251,
+   0.32
+  ],
+  "logged": "2026-11-15 01:26",
+  "result": null
+ },
+ "everton-vs-fulham-20261206": {
+  "id": "everton-vs-fulham-20261206",
+  "lg": "E0",
+  "home": "Everton",
+  "away": "Fulham",
+  "utc": "2026-12-06T14:00:00Z",
+  "pct": [
+   42,
+   30,
+   28
+  ],
+  "proj": [
+   1.24,
+   0.98
+  ],
+  "base": [
+   0.43,
+   0.251,
+   0.32
+  ],
+  "logged": "2026-11-15 01:26",
+  "result": null
+ },
+ "tottenham-vs-arsenal-20261206": {
+  "id": "tottenham-vs-arsenal-20261206",
+  "lg": "E0",
+  "home": "Tottenham",
+  "away": "Arsenal",
+  "utc": "2026-12-06T16:30:00Z",
+  "pct": [
+   17,
+   25,
+   58
+  ],
+  "proj": [
+   0.82,
+   1.7
+  ],
+  "base": [
+   0.43,
+   0.251,
+   0.32
+  ],
+  "logged": "2026-11-15 01:26",
+  "result": null
+ },
+ "burnley-vs-preston-20261206": {
+  "id": "burnley-vs-preston-20261206",
+  "lg": "E1",
+  "home": "Burnley",
+  "away": "Preston",
+  "utc": "2026-12-06T12:00:00Z",
+  "pct": [
+   59,
+   23,
+   18
+  ],
+  "proj": [
+   1.86,
+   0.94
+  ],
+  "base": [
+   0.438,
+   0.264,
+   0.297
+  ],
+  "logged": "2026-11-15 01:26",
+  "result": null
+ },
+ "schalke-04-vs-dortmund-20261206": {
+  "id": "schalke-04-vs-dortmund-20261206",
+  "lg": "D1",
+  "home": "Schalke 04",
+  "away": "Dortmund",
+  "utc": "2026-12-06T14:30:00Z",
+  "pct": [
+   19,
+   29,
+   52
+  ],
+  "proj": [
+   0.71,
+   1.37
+  ],
+  "base": [
+   0.424,
+   0.256,
+   0.321
+  ],
+  "logged": "2026-11-15 01:26",
+  "result": null
+ },
+ "elversberg-vs-stuttgart-20261206": {
+  "id": "elversberg-vs-stuttgart-20261206",
+  "lg": "D1",
+  "home": "Elversberg",
+  "away": "Stuttgart",
+  "utc": "2026-12-06T16:30:00Z",
+  "pct": [
+   39,
+   22,
+   39
+  ],
+  "proj": [
+   1.92,
+   1.93
+  ],
+  "base": [
+   0.424,
+   0.256,
+   0.321
+  ],
+  "logged": "2026-11-15 01:26",
+  "result": null
  }
 }
