@@ -5557,5 +5557,97 @@
   ],
   "logged": "2026-11-17 01:30",
   "result": null
+ },
+ "preston-vs-portsmouth-20261209": {
+  "id": "preston-vs-portsmouth-20261209",
+  "lg": "E1",
+  "home": "Preston",
+  "away": "Portsmouth",
+  "utc": "2026-12-09T19:45:00Z",
+  "pct": [
+   37,
+   28,
+   35
+  ],
+  "proj": [
+   1.27,
+   1.23
+  ],
+  "base": [
+   0.438,
+   0.264,
+   0.297
+  ],
+  "logged": "2026-11-18 07:37",
+  "result": null
+ },
+ "lincoln-vs-stoke-20261209": {
+  "id": "lincoln-vs-stoke-20261209",
+  "lg": "E1",
+  "home": "Lincoln",
+  "away": "Stoke",
+  "utc": "2026-12-09T19:45:00Z",
+  "pct": [
+   33,
+   29,
+   38
+  ],
+  "proj": [
+   1.17,
+   1.28
+  ],
+  "base": [
+   0.438,
+   0.264,
+   0.297
+  ],
+  "logged": "2026-11-18 07:37",
+  "result": null
+ },
+ "derby-vs-bristol-city-20261209": {
+  "id": "derby-vs-bristol-city-20261209",
+  "lg": "E1",
+  "home": "Derby",
+  "away": "Bristol City",
+  "utc": "2026-12-09T19:45:00Z",
+  "pct": [
+   41,
+   28,
+   31
+  ],
+  "proj": [
+   1.38,
+   1.17
+  ],
+  "base": [
+   0.438,
+   0.264,
+   0.297
+  ],
+  "logged": "2026-11-18 07:37",
+  "result": null
+ },
+ "southampton-vs-burnley-20261209": {
+  "id": "southampton-vs-burnley-20261209",
+  "lg": "E1",
+  "home": "Southampton",
+  "away": "Burnley",
+  "utc": "2026-12-09T20:00:00Z",
+  "pct": [
+   56,
+   23,
+   21
+  ],
+  "proj": [
+   1.95,
+   1.13
+  ],
+  "base": [
+   0.438,
+   0.264,
+   0.297
+  ],
+  "logged": "2026-11-18 07:37",
+  "result": null
  }
 }
