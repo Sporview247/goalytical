@@ -5649,5 +5649,51 @@
   ],
   "logged": "2026-11-18 07:37",
   "result": null
+ },
+ "bolton-vs-wrexham-20261211": {
+  "id": "bolton-vs-wrexham-20261211",
+  "lg": "E1",
+  "home": "Bolton",
+  "away": "Wrexham",
+  "utc": "2026-12-11T20:00:00Z",
+  "pct": [
+   35,
+   25,
+   40
+  ],
+  "proj": [
+   1.5,
+   1.62
+  ],
+  "base": [
+   0.438,
+   0.264,
+   0.297
+  ],
+  "logged": "2026-11-20 07:25",
+  "result": null
+ },
+ "hamburg-vs-schalke-04-20261211": {
+  "id": "hamburg-vs-schalke-04-20261211",
+  "lg": "D1",
+  "home": "Hamburg",
+  "away": "Schalke 04",
+  "utc": "2026-12-11T19:30:00Z",
+  "pct": [
+   41,
+   32,
+   27
+  ],
+  "proj": [
+   1.11,
+   0.86
+  ],
+  "base": [
+   0.424,
+   0.256,
+   0.321
+  ],
+  "logged": "2026-11-20 07:25",
+  "result": null
  }
 }
