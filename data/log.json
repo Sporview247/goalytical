@@ -6132,5 +6132,212 @@
   ],
   "logged": "2026-11-21 07:17",
   "result": null
+ },
+ "sunderland-vs-nott-m-forest-20261213": {
+  "id": "sunderland-vs-nott-m-forest-20261213",
+  "lg": "E0",
+  "home": "Sunderland",
+  "away": "Nott'm Forest",
+  "utc": "2026-12-13T14:00:00Z",
+  "pct": [
+   34,
+   30,
+   36
+  ],
+  "proj": [
+   1.11,
+   1.15
+  ],
+  "base": [
+   0.43,
+   0.251,
+   0.32
+  ],
+  "logged": "2026-11-22 06:58",
+  "result": null
+ },
+ "brighton-vs-everton-20261213": {
+  "id": "brighton-vs-everton-20261213",
+  "lg": "E0",
+  "home": "Brighton",
+  "away": "Everton",
+  "utc": "2026-12-13T14:00:00Z",
+  "pct": [
+   52,
+   26,
+   22
+  ],
+  "proj": [
+   1.58,
+   0.94
+  ],
+  "base": [
+   0.43,
+   0.251,
+   0.32
+  ],
+  "logged": "2026-11-22 06:58",
+  "result": null
+ },
+ "arsenal-vs-bournemouth-20261213": {
+  "id": "arsenal-vs-bournemouth-20261213",
+  "lg": "E0",
+  "home": "Arsenal",
+  "away": "Bournemouth",
+  "utc": "2026-12-13T14:00:00Z",
+  "pct": [
+   62,
+   23,
+   15
+  ],
+  "proj": [
+   1.83,
+   0.79
+  ],
+  "base": [
+   0.43,
+   0.251,
+   0.32
+  ],
+  "logged": "2026-11-22 06:58",
+  "result": null
+ },
+ "coventry-vs-aston-villa-20261213": {
+  "id": "coventry-vs-aston-villa-20261213",
+  "lg": "E0",
+  "home": "Coventry",
+  "away": "Aston Villa",
+  "utc": "2026-12-13T16:30:00Z",
+  "pct": [
+   29,
+   24,
+   47
+  ],
+  "proj": [
+   1.33,
+   1.74
+  ],
+  "base": [
+   0.43,
+   0.251,
+   0.32
+  ],
+  "logged": "2026-11-22 06:58",
+  "result": null
+ },
+ "crystal-palace-vs-man-united-20261213": {
+  "id": "crystal-palace-vs-man-united-20261213",
+  "lg": "E0",
+  "home": "Crystal Palace",
+  "away": "Man United",
+  "utc": "2026-12-13T19:00:00Z",
+  "pct": [
+   33,
+   25,
+   42
+  ],
+  "proj": [
+   1.39,
+   1.58
+  ],
+  "base": [
+   0.43,
+   0.251,
+   0.32
+  ],
+  "logged": "2026-11-22 06:58",
+  "result": null
+ },
+ "lincoln-vs-norwich-20261213": {
+  "id": "lincoln-vs-norwich-20261213",
+  "lg": "E1",
+  "home": "Lincoln",
+  "away": "Norwich",
+  "utc": "2026-12-13T14:00:00Z",
+  "pct": [
+   27,
+   25,
+   48
+  ],
+  "proj": [
+   1.25,
+   1.75
+  ],
+  "base": [
+   0.438,
+   0.264,
+   0.297
+  ],
+  "logged": "2026-11-22 06:58",
+  "result": null
+ },
+ "mainz-vs-freiburg-20261213": {
+  "id": "mainz-vs-freiburg-20261213",
+  "lg": "D1",
+  "home": "Mainz",
+  "away": "Freiburg",
+  "utc": "2026-12-13T14:30:00Z",
+  "pct": [
+   43,
+   25,
+   32
+  ],
+  "proj": [
+   1.63,
+   1.38
+  ],
+  "base": [
+   0.424,
+   0.256,
+   0.321
+  ],
+  "logged": "2026-11-22 06:58",
+  "result": null
+ },
+ "hoffenheim-vs-bayern-munich-20261213": {
+  "id": "hoffenheim-vs-bayern-munich-20261213",
+  "lg": "D1",
+  "home": "Hoffenheim",
+  "away": "Bayern Munich",
+  "utc": "2026-12-13T16:30:00Z",
+  "pct": [
+   15,
+   15,
+   70
+  ],
+  "proj": [
+   1.43,
+   3.04
+  ],
+  "base": [
+   0.424,
+   0.256,
+   0.321
+  ],
+  "logged": "2026-11-22 06:58",
+  "result": null
+ },
+ "werder-bremen-vs-leverkusen-20261213": {
+  "id": "werder-bremen-vs-leverkusen-20261213",
+  "lg": "D1",
+  "home": "Werder Bremen",
+  "away": "Leverkusen",
+  "utc": "2026-12-13T18:30:00Z",
+  "pct": [
+   29,
+   24,
+   47
+  ],
+  "proj": [
+   1.38,
+   1.83
+  ],
+  "base": [
+   0.424,
+   0.256,
+   0.321
+  ],
+  "logged": "2026-11-22 06:58",
+  "result": null
  }
 }
