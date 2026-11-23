@@ -6339,5 +6339,28 @@
   ],
   "logged": "2026-11-22 06:58",
   "result": null
+ },
+ "hull-vs-tottenham-20261214": {
+  "id": "hull-vs-tottenham-20261214",
+  "lg": "E0",
+  "home": "Hull",
+  "away": "Tottenham",
+  "utc": "2026-12-14T20:00:00Z",
+  "pct": [
+   43,
+   29,
+   28
+  ],
+  "proj": [
+   1.35,
+   1.03
+  ],
+  "base": [
+   0.43,
+   0.251,
+   0.32
+  ],
+  "logged": "2026-11-23 07:47",
+  "result": null
  }
 }
