@@ -6491,5 +6491,51 @@
   ],
   "logged": "2026-11-23 23:58",
   "result": null
+ },
+ "west-brom-vs-sheffield-united-20261218": {
+  "id": "west-brom-vs-sheffield-united-20261218",
+  "lg": "E1",
+  "home": "West Brom",
+  "away": "Sheffield United",
+  "utc": "2026-12-18T20:00:00Z",
+  "pct": [
+   42,
+   28,
+   30
+  ],
+  "proj": [
+   1.35,
+   1.1
+  ],
+  "base": [
+   0.439,
+   0.263,
+   0.298
+  ],
+  "logged": "2026-11-27 08:43",
+  "result": null
+ },
+ "bayern-munich-vs-werder-bremen-20261218": {
+  "id": "bayern-munich-vs-werder-bremen-20261218",
+  "lg": "D1",
+  "home": "Bayern Munich",
+  "away": "Werder Bremen",
+  "utc": "2026-12-18T19:30:00Z",
+  "pct": [
+   83,
+   11,
+   6
+  ],
+  "proj": [
+   3.42,
+   0.95
+  ],
+  "base": [
+   0.422,
+   0.253,
+   0.325
+  ],
+  "logged": "2026-11-27 08:43",
+  "result": null
  }
 }
